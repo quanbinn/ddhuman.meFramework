@@ -9,7 +9,9 @@ $ mkdir ddhumanMe && cd ddhumanMe
 
 ## Reference
 
-1. [eggjs.org快速入门](https://eggjs.org/zh-cn/intro/quickstart.html)
+1. [Exception handling](https://en.wikipedia.org/wiki/Exception_handling)
+1. [**try...catch from MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+1. [**Error handling, "try..catch"**](https://javascript.info/try-catch)
 
 
 

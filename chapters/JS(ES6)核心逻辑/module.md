@@ -9,7 +9,8 @@ $ mkdir ddhumanMe && cd ddhumanMe
 
 ## Reference
 
-1. [eggjs.org快速入门](https://eggjs.org/zh-cn/intro/quickstart.html)
+1. [JavaScript modules from **MDN**](https://javascript.info/modules-intro)
+2. [**Modules, introduction**](https://javascript.info/modules-intro)
 
 
 

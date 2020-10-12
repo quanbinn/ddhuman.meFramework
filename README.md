@@ -40,4 +40,4 @@
 - [callback](/chapters/JS(ES6)核心逻辑/callback.md)
 - [try error](/chapters/JS(ES6)核心逻辑/try_error.md)
 - [console.dir](/chapters/JS(ES6)核心逻辑/console.dir.md)
-- [ramda(lamda)](/chapters/JS(ES6)核心逻辑/ramda(lamda).md)
+- [ramda(lambda)](/chapters/JS(ES6)核心逻辑/ramda(lambda).md)
