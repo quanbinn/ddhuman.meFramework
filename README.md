@@ -34,5 +34,10 @@
 
 ## JS(ES6)核心逻辑
 
-- [内容1](/chapters/JS(ES6)核心逻辑/内容1.md)
-
+- ['use strict'](/chapters/JS(ES6)核心逻辑/use_strict.md)
+- [arrow function](/chapters/JS(ES6)核心逻辑/arrow_function.md)
+- [module](/chapters/JS(ES6)核心逻辑/module.md) 
+- [callback](/chapters/JS(ES6)核心逻辑/callback.md)
+- [try error](/chapters/JS(ES6)核心逻辑/try_error.md)
+- [console.dir](/chapters/JS(ES6)核心逻辑/console.dir.md)
+- [ramda(lamda)](/chapters/JS(ES6)核心逻辑/ramda(lamda).md)
