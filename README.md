@@ -35,9 +35,10 @@
 ## JS(ES6)核心逻辑
 
 - ['use strict'](/chapters/JS(ES6)核心逻辑/use_strict.md)
-- [arrow function](/chapters/JS(ES6)核心逻辑/arrow_function.md)
+- [让函数表达式看起来更简洁的**=>**写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
 - [module](/chapters/JS(ES6)核心逻辑/module.md) 
 - [callback](/chapters/JS(ES6)核心逻辑/callback.md)
 - [try error](/chapters/JS(ES6)核心逻辑/try_error.md)
 - [console.dir](/chapters/JS(ES6)核心逻辑/console.dir.md)
 - [ramda(lambda)](/chapters/JS(ES6)核心逻辑/ramda(lambda).md)
+
