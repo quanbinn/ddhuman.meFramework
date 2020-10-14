@@ -34,7 +34,7 @@
 
 ## JS(ES6)核心逻辑
 
-- [采用strict mode使代码运行安全&提高编译效率](/chapters/JS(ES6)核心逻辑/采用strict_mode使代码运行安全&提高编译效率.md)
+- [采用strict mode使代码运行安全，并且提高编译效率](/chapters/JS(ES6)核心逻辑/采用strict_mode使代码运行安全&提高编译效率.md)
 - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
 - [module](/chapters/JS(ES6)核心逻辑/module.md) 
 - [callback](/chapters/JS(ES6)核心逻辑/callback.md)
