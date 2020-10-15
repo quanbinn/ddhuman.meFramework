@@ -10,27 +10,48 @@
 
 ## exportBMI.js
 ```javascript
-import {myBMI} from './modules/calculateBMI.js';
+import {myBMI, minWeight, maxWeight} from './modules/calculateBMI.js';
 
 let height = 1.745;
 let weight = 70;
-   
-let BMI = myBMI(weight, height);  
 
-document.body.innerHTML = "你的BMI是：" + myBMI(weight, height); 
+let BMI = myBMI(weight, height);
+let min = minWeight(weight, height);
+let max = maxWeight(weight, height);
+
+if (BMI < 18.5) {
+  alert("你的BMI是"+ BMI + "。\n你的体重过轻。"); 
+  alert("你的正常体重应该在:"+min+"-"+max+"公斤的范围内。");
+} else if (BMI >= 18.5 && BMI < 24.0) {
+  alert("你的BMI是"+ BMI + "。\n你的体重正常。"); 
+  alert("你的正常体重应该在:"+min+"-"+max+"公斤的范围内。"); 
+} else if (BMI >= 24.0 && BMI < 28.0) {
+  alert("你的BMI是"+ BMI + "。\n你的体重超重。"); 
+  alert("你的正常体重应该在:"+min+"-"+max+"公斤的范围内。"); 
+} else {
+  alert("你的BMI是"+ BMI + "。\n你的体重肥胖。"); 
+  alert("你的正常体重应该在:"+min+"-"+max+"公斤的范围内。"); 
+}
+
+document.body.innerHTML = "你的BMI是：" + BMI+ "。 " + "你的正常体重应该在:"+ min + "-"+ max+"公斤的范围内。"; 
 ```
 
 ## ./modules/calculateBMI.js
 ```javascript
-let myBMI = (weightArgu, heightArgu) => {   
-    let weightVar = weightArgu;          
-    let heightVar = heightArgu;        
-    let BMIFloat = weightVar / (heightVar * heightVar); 
-    let BMI = BMIFloat.toFixed(1);    
+let  myBMI = (weight, height) => {   
+    let BMI = (weight / (height * height)).toFixed(1); 
     return BMI;
 }
 
-export { myBMI };
+let minWeight =  (weight, height) =>{
+	return (height * height * 18.5).toFixed(1);
+}  
+
+let maxWeight =  (weight, height) =>{
+	return (height * height * 24.0).toFixed(1);
+}  
+
+export { myBMI, minWeight, maxWeight };
 ```
 
 ## Reference

@@ -2,18 +2,11 @@
 
 ## ES6的写法
 
-单击右方的[在线代码段Url网址](http://pythontutor.com/visualize.html#code=let%20weightVar,%20heightVar,%20BMIFloat,%20BMI%3B%20%20%20%20%0A%0Alet%20%20myBMI%20%3D%20%28weightArgu,%20heightArgu%29%20%3D%3E%20%7B%20%20%20%0A%20%20%20%20weightVar%20%3D%20weightArgu%3B%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20heightVar%20%3D%20heightArgu%3B%20%20%20%20%20%20%20%20%0A%0A%20%20%20%20BMIFloat%20%3D%20weightVar%20/%20%28heightVar%20*%20heightVar%29%3B%20%0A%20%20%20%20BMI%20%3D%20BMIFloat.toFixed%281%29%3B%20%20%20%20%0A%0A%20%20%20%20return%20BMI%3B%0A%7D%0A%0Aconsole.log%28%22My%20BMI%20is%20%22%20%2B%20myBMI%2870,%201.745%29%20%2B%20%22.%22%29%3B&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
+单击右方的[在线代码段Url网址](http://pythontutor.com/visualize.html#code=let%20%20myBMI%20%3D%20%28weight,%20height%29%20%3D%3E%20%7B%20%20%20%0A%20%20%20%20let%20BMI%20%3D%20%28weight%20/%20%28height%20*%20height%29%29.toFixed%281%29%3B%20%0A%20%20%20%20return%20BMI%3B%0A%7D%0A%0Aconsole.log%28%22My%20BMI%20is%20%22%20%2B%20myBMI%2870,%201.745%29%20%2B%20%22.%22%29%3B&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
 
 ```javascript
-let weightVar, heightVar, BMIFloat, BMI;    
-
-let  myBMI = (weightArgu, heightArgu) => {   
-    weightVar = weightArgu;          
-    heightVar = heightArgu;        
-
-    BMIFloat = weightVar / (heightVar * heightVar); 
-    BMI = BMIFloat.toFixed(1);    
-
+let  myBMI = (weight, height) => {   
+    let BMI = (weight / (height * height)).toFixed(1); 
     return BMI;
 }
 
@@ -23,19 +16,12 @@ console.log("My BMI is " + myBMI(70, 1.745) + ".");
 ## ES6之前的写法
 
 ```javascript
-var weightVar, heightVar, BMIFloat, BMI;    
-
-function myBMI (weightArgu, heightArgu) {   
-    weightVar = weightArgu;          
-    heightVar = heightArgu;        
-
-    BMIFloat = weightVar / (heightVar * heightVar); 
-    BMI = BMIFloat.toFixed(1);    
-
+function myBMI (weight, height) {   
+    let BMI = (weight / (height * height)).toFixed(1); 
     return BMI;
 }
 
-console.log("My BMI is " + myBMI(63.5, 1.74) + ".");
+console.log("My BMI is " + myBMI(70, 1.745) + ".");
 ```
 
 ## Reference
