@@ -39,7 +39,3 @@
 - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
 - [try error](/chapters/JS(ES6)核心逻辑/try_error.md)
 - [采用strict mode使代码运行安全，并且提高编译效率](/chapters/JS(ES6)核心逻辑/采用strict_mode使代码运行安全&提高编译效率.md)
-- [ramda(lambda)](/chapters/JS(ES6)核心逻辑/ramda(lambda).md)
-- [console.dir](/chapters/JS(ES6)核心逻辑/console.dir.md)
-
-
