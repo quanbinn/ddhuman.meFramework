@@ -2,16 +2,12 @@
 
 ## 打开实验文件
 
+### 调试环境1：
+单击右方的[在线代码段Url网址](http://www.pythontutor.com/visualize.html#mode=edit)，浏览器里会打开一个新的页面，把下面的这些python代码段分别拷贝到空白栏中。
+
+### 调试环境2：
 - 单机右方的[Online Python](https://www.online-python.com)，稍后在浏览器里会显示Python的运行环境。
 - 把下面的这些python代码段分别拷贝到main.py的空白栏中， 然后单击左下方的按键“Run”。
-
-
-
-单击右方的[在线代码段Url网址](http://pythontutor.com/visualize.html#code=import%20threading%0Aimport%20time%0Adef%20func1%28x,%20y%29%3A%0A%20%20%20%20for%20i%20in%20range%28x,%20y%29%3A%0A%20%20%20%20%20%20%20%20print%28i,%20end%3D'%20'%29%0A%20%20%20%20%23time.sleep%2810%29%0A%0At1%3Dthreading.Thread%28target%20%3D%20func1,%20args%20%3D%20%2815,%2020%29%29%0At1.start%28%29%0At1.join%285%29%0At2%3Dthreading.Thread%28target%20%3D%20func1,%20args%20%3D%20%285,%2010%29%29%0At2.start%28%29%0A%23t2.join%28%29%20%23the%20program%20will%20not%20continue%20until%20t2%20thread%20finishs%0A%0Aprint%28t1.isAlive%28%29%29%0Atime.sleep%282%29%20%23try%20to%20comment%20this%20line%20to%20see%20the%20different%20result%0Aprint%28t2.isAlive%28%29%29%0A&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=py3anaconda&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
-
-
-
-#### 创建多进程
 
 ```python
 from multiprocessing import Process
@@ -29,17 +25,98 @@ if __name__ == '__main__':
     p.join()
 ```
 
+```python
+from multiprocessing import Pool
+from statistics import mean
 
+def f(x):
+    return mean(x)
+
+if __name__ == '__main__':
+    x = [list(range(10)), list(range(20,30)), list(range(50,60)), list(range(80,90))]
+    with Pool(5) as p:
+        print(p.map(f, [x[0], x[1], x[2], x[3]]))
+```
+
+```python
+import multiprocessing as mp
+
+def foo(q):
+    q.put('hello world!')
+
+if __name__ == '__main__':
+    mp.set_start_method('spawn')
+    q = mp.Queue()
+    p = mp.Process(target=foo, args=(q,))
+    p.start()
+    p.join()
+    print(q.get())
+```
+
+```python
+from multiprocessing import Process, Pipe
+
+def f(conn):
+    conn.send('hello world')
+    conn.close()
+
+if __name__ == '__main__':
+    parent_conn, child_conn = Pipe()
+    p = Process(target=f, args=(child_conn,))
+    p.start()
+    print(parent_conn.recv())
+    p.join()
+```
+
+```python
+from multiprocessing import Process, Manager
+
+def f(d, l, t):
+    d['name'] = 'Dong Fuguo'
+    d['age'] = 38
+    d['sex'] = 'Male'
+    d['affiliation'] = 'SDIBT'
+    l.reverse()
+    t.value = 3
+    
+
+if __name__ == '__main__':
+    with Manager() as manager:
+        d = manager.dict()
+        l = manager.list(range(10))
+        t = manager.Value('i', 0)
+
+        p = Process(target=f, args=(d, l, t))
+        p.start()
+        p.join()
+
+        for item in d.items():
+            print(item)
+        print(l)
+        print(t.value)
+```
+
+```python
+from multiprocessing import Process, Event
+
+def f(e, i):
+    if e.is_set():
+        e.wait()
+        print('hello world', i)
+        e.clear()
+    else:
+        e.set()
+
+if __name__ == '__main__':
+    e = Event()
+
+    for num in range(10):
+        Process(target=f, args=(e,num)).start()
+```
 
 ## Reference
 
-1. [**Futures and promises** from wikipedia](https://en.wikipedia.org/wiki/Futures_and_promises)
-2. [Introduction: callbacks](https://javascript.info/callbacks)
-3. [Promise](https://javascript.info/promise-basics)
-4. [Async/await](https://javascript.info/async-await)
-5. [Promise from **MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-6. [async function from **MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
-7. [Making asynchronous programming easier with async and await from **MDN**](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+1. 董付国.[Python可以这样学](http://product.dangdang.com/24180463.html).第13章:多线程与多进程编程.
 
 
 

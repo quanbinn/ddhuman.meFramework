@@ -2,16 +2,14 @@
 
 ## 打开实验文件
 
-- 单机右方的[Online Python](https://www.online-python.com)，稍后在浏览器里会显示Python的运行环境。
+### 调试环境1：
+单击右方的[在线代码段Url网址](http://www.pythontutor.com/visualize.html#mode=edit)，浏览器里会打开一个新的页面，把下面的这些python代码段分别拷贝到空白栏中。
 
+### 调试环境2：
+- 单机右方的[Online Python](https://www.online-python.com)，稍后在浏览器里会显示Python的运行环境。
 - 把下面的这些python代码段分别拷贝到main.py的空白栏中， 然后单击左下方的按键“Run”。
 
-  
-
-单击右方的[在线代码段Url网址](http://pythontutor.com/visualize.html#code=import%20threading%0Aclass%20mythread%28threading.Thread%29%3A%0A%20%20%20%20def%20__init__%28self,%20num%29%3A%0A%20%20%20%20%20%20%20%20threading.Thread.__init__%28self%29%0A%20%20%20%20%20%20%20%20self.num%20%3D%20num%0A%20%20%20%20def%20run%28self%29%3A%0A%20%20%20%20%20%20%20%20print%28'I%20am%20%7B0%7D'.format%28self.num%29%29%0A%0At1%20%3D%20mythread%281%29%0At2%20%3D%20mythread%282%29%0At3%20%3D%20mythread%283%29%0At1.start%28%29%0At2.start%28%29%0At3.start%28%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=py3anaconda&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
-
 #### 创建3个单线程
-
 ```python
 import threading
 class mythread(threading.Thread):
@@ -29,10 +27,7 @@ t2.start()
 t3.start()
 ```
 
-
-
 #### 创建2个单线程，并执行相应任务（函数）
-
 ```python
 import threading
 import time
@@ -48,9 +43,43 @@ t2=threading.Thread(target = func1, args = (5, 10))
 t2.start()
 #t2.join() #the program will not continue until t2 thread finishs
 
-print(t1.isAlive())
+print(t1.is_alive())
 time.sleep(2) #try to comment this line to see the different result
-print(t2.isAlive())
+print(t2.is_alive())
+```
+
+#### Python Thread - Join Method
+```python
+from threading import Thread
+from threading import Event
+import time
+
+class ConnectionThread(Thread):
+    myStopEvent = 0
+    def __init__(self,args):
+        Thread.__init__(self)
+        self.myStopEvent = args
+
+    # The run method is overridden to define the thread body
+    def run(self):
+        for i in range(1,10):
+            if(self.myStopEvent.wait(0)):
+                print ("ChildThread:Asked to stop")
+                break;
+            print("ChildThread:Sleep count %d"%(i))
+            time.sleep(3)          
+        print ("ChildThread:Exiting")
+
+aStopEvent = Event()
+ConnectionThread = ConnectionThread(aStopEvent)           
+ConnectionThread.start()
+print("Main thread: Starting to wait for 5 seconds")
+ConnectionThread.join(5)
+print("Main thread: I cant't wait for more than 5 seconds for the child thread;Will ask child thread to stop")
+aStopEvent.set()   #ask(signal) the child thread to stop
+ConnectionThread.join() # wait for the child thread to stop
+print("Main thread: Now I do something else to compensate the child thread task and exit")
+print("Main thread: Exiting")
 ```
 
 ```python
@@ -92,8 +121,6 @@ t2.start()
 print('End of main')
 ```
 
-
-
 ```python
 #thread模块不支持守护线程，主线程退出的时候，所有的子线程不论是否还在工作，都会被强制结束，
 #而且没有任何警告和退出前的清理工作
@@ -117,7 +144,9 @@ print(t2.isDaemon())
 t2.setDaemon(True)
 t1.start()
 t2.start()
+```
 
+```python
 #使用Queue为多线程分配任务
 import os
 import queue
@@ -161,17 +190,10 @@ if __name__ == '__main__':
     myQueue.join()
 ```
 
-
-
 ## Reference
 
-1. [**Futures and promises** from wikipedia](https://en.wikipedia.org/wiki/Futures_and_promises)
-2. [Introduction: callbacks](https://javascript.info/callbacks)
-3. [Promise](https://javascript.info/promise-basics)
-4. [Async/await](https://javascript.info/async-await)
-5. [Promise from **MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-6. [async function from **MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
-7. [Making asynchronous programming easier with async and await from **MDN**](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+1. 董付国.[Python可以这样学](http://product.dangdang.com/24180463.html).第13章:多线程与多进程编程.
+2. [Python Thread - Join Method](https://pythontic.com/multithreading/thread/join#)
 
 
 
