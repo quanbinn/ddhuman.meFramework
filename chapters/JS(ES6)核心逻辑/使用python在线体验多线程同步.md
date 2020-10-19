@@ -9,8 +9,7 @@
 - 单机右方的[Online Python](https://www.online-python.com)，稍后在浏览器里会显示Python的运行环境。
 - 把下面的这些python代码段分别拷贝到main.py的空白栏中， 然后单击左下方的按键“Run”。
 
-
-####　Thread Synchronization Using Queue
+#### Thread Synchronization Using Queue
 ```python
 import threading
 import time
