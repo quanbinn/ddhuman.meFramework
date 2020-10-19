@@ -36,6 +36,7 @@
 
 - [调用子文件中多种对象的module功能](/chapters/JS(ES6)核心逻辑/调用子文件中多种对象的module功能.md)
 - [使用python在线体验多线程](/chapters/JS(ES6)核心逻辑/使用python在线体验多线程.md)
+- [使用python在线体验多线程同步](/chapters/JS(ES6)核心逻辑/使用python在线体验多线程同步.md) 
 - [使用python在线体验多进程](/chapters/JS(ES6)核心逻辑/使用python在线体验多进程.md)
 - [callback](/chapters/JS(ES6)核心逻辑/callback.md)
 - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
