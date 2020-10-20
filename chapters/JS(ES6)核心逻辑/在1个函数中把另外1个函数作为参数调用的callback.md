@@ -20,45 +20,6 @@ doSomething("回调函数", function(){
  }); 
 ```
 
-```javascript
-var p_client = new Db('integration_tests_20', new Server("127.0.0.1", 27017, {}), {'pk':CustomPKFactory});
-   p_client.open(function(err, p_client) {
-       p_client.dropDatabase(function(err, done) {
-           p_client.createCollection('test_custom_key', function(err, collection) {
-               collection.insert({'a':1}, function(err, docs) {
-                   collection.find({'_id':new ObjectID("aaaaaaaaaaaa")}, function(err, cursor) {
-                       cursor.toArray(function(err, items) {
-                           test.assertEquals(1, items.length);
- 
-                           // Let's close the db
-                           p_client.close();
-                       });
-                   });
-               });
-           });
-       });
-   });
-```
-
-```html
-<!DOCTYPE html>
-<script>
-'use strict';
-
-function loadScript(src, callback) {
-  let script = document.createElement('script');
-  script.src = src;
-  script.onload = () => callback(script);
-  document.head.append(script);
-}
-
-loadScript('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js', script => {
-  alert(`Cool, the script ${script.src} is loaded`);
-  alert( _ ); // function declared in the loaded script
-});
-</script>
-```
-
 ```html
 <!DOCTYPE html>
 <html>
@@ -118,6 +79,101 @@ loadScript('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js', s
 
 </body>
 </html>
+```
+
+```javascript
+var p_client = new Db('integration_tests_20', new Server("127.0.0.1", 27017, {}), {'pk':CustomPKFactory});
+   p_client.open(function(err, p_client) {
+       p_client.dropDatabase(function(err, done) {
+           p_client.createCollection('test_custom_key', function(err, collection) {
+               collection.insert({'a':1}, function(err, docs) {
+                   collection.find({'_id':new ObjectID("aaaaaaaaaaaa")}, function(err, cursor) {
+                       cursor.toArray(function(err, items) {
+                           test.assertEquals(1, items.length);
+ 
+                           // Let's close the db
+                           p_client.close();
+                       });
+                   });
+               });
+           });
+       });
+   });
+```
+
+```html
+<!DOCTYPE html>
+<script>
+'use strict';
+
+function loadScript(src, callback) {
+  let script = document.createElement('script');
+  script.src = src;
+  script.onload = () => callback(script);
+  document.head.append(script);
+}
+
+loadScript('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js', script => {
+  alert(`Cool, the script ${script.src} is loaded`);
+  alert( _ ); // function declared in the loaded script
+});
+</script>
+```
+
+```javascript
+loadScript('1.js', function(error, script) {
+
+  if (error) {
+    handleError(error);
+  } else {
+    // ...
+    loadScript('2.js', function(error, script) {
+      if (error) {
+        handleError(error);
+      } else {
+        // ...
+        loadScript('3.js', function(error, script) {
+          if (error) {
+            handleError(error);
+          } else {
+            // ...continue after all scripts are loaded (*)
+          }
+        });
+
+      }
+    })
+  }
+});
+```
+
+```javascript
+loadScript('1.js', step1);
+
+function step1(error, script) {
+  if (error) {
+    handleError(error);
+  } else {
+    // ...
+    loadScript('2.js', step2);
+  }
+}
+
+function step2(error, script) {
+  if (error) {
+    handleError(error);
+  } else {
+    // ...
+    loadScript('3.js', step3);
+  }
+}
+
+function step3(error, script) {
+  if (error) {
+    handleError(error);
+  } else {
+    // ...continue after all scripts are loaded (*)
+  }
+};
 ```
 
 ## Reference

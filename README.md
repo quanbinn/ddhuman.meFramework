@@ -34,13 +34,17 @@
 
 ## JS(ES6)核心逻辑
 
+- [采用strict mode使代码运行安全，并且提高编译效率](/chapters/JS(ES6)核心逻辑/采用strict_mode使代码运行安全&提高编译效率.md)
 - [调用子文件中多种对象的module功能](/chapters/JS(ES6)核心逻辑/调用子文件中多种对象的module功能.md)
-- [使用python在线体验多线程](/chapters/JS(ES6)核心逻辑/使用python在线体验多线程.md)
-- [使用python在线体验多线程同步](/chapters/JS(ES6)核心逻辑/使用python在线体验多线程同步.md) 
-- [使用python在线体验多进程](/chapters/JS(ES6)核心逻辑/使用python在线体验多进程.md)
+- [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
+- [使用try..catch语句处理程序运行错误](/chapters/JS(ES6)核心逻辑/使用try..catch语句处理程序运行错误.md)
+- 使用python在线体验多线程和多进程
+	- [多线程](/chapters/JS(ES6)核心逻辑/使用python在线体验多线程.md)
+	- [多线程同步](/chapters/JS(ES6)核心逻辑/使用python在线体验多线程同步.md) 
+	- [多进程](/chapters/JS(ES6)核心逻辑/使用python在线体验多进程.md)
 - [在1个函数中把另外1个函数作为参数调用的callback](/chapters/JS(ES6)核心逻辑/在1个函数中把另外1个函数作为参数调用的callback.md)
 - [Promise](/chapters/JS(ES6)核心逻辑/Promise.md)
 - [Async+await](/chapters/JS(ES6)核心逻辑/Async+await.md)
-- [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
-- [使用try..catch语句处理程序运行错误](/chapters/JS(ES6)核心逻辑/使用try..catch语句处理程序运行错误.md)
-- [采用strict mode使代码运行安全，并且提高编译效率](/chapters/JS(ES6)核心逻辑/采用strict_mode使代码运行安全&提高编译效率.md)
+
+
+
