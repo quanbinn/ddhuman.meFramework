@@ -1,4 +1,4 @@
-# try error
+# 使用try..catch语句处理程序运行错误
 
 1. 
 ```bash
