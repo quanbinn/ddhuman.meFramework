@@ -14,14 +14,20 @@
 <script>
 'use strict';
 
-// let error = new Error(message);
-// let error = new SyntaxError(message);
-// let error = new ReferenceError(message);
+/*
+let error = new Error("测试一个Error");
+console.log(error.name); // Error
+console.log(error.message); // 测试一个Error
 
-let error = new Error("Things happen o_O");
+let error = new ReferenceError("测试一个ReferenceError");
+console.log(error.name); // ReferenceError
+console.log(error.message); // 测试一个ReferenceError
+*/
 
-alert(error.name); // Error
-alert(error.message); // Things happen o_O
+let error = new SyntaxError("测试一个SyntaxError");
+console.log(error.name); // SyntaxError
+console.log(error.message); // 测试一个SyntaxError
+
 </script>
 ```
 
@@ -31,7 +37,8 @@ alert(error.message); // Things happen o_O
 'use strict';
 
 let json = '{ "age": 30 }'; // incomplete data
-
+// let json = '{  "name": "Binxia", "age": 30 }'; // complete data
+  
 try {
 
   let user = JSON.parse(json); // <-- no errors
@@ -40,7 +47,7 @@ try {
     throw new SyntaxError("Incomplete data: no name"); // (*)
   }
 
-  alert( user.name );
+  console.log( user.name );
 
 } catch(e) {
   alert( "JSON Error: " + e.message ); // JSON Error: Incomplete data: no name

@@ -11,12 +11,13 @@
 
 ```javascript
 function doSomething(msg, callback){
-     console.log(msg);
-    if(typeof callback == "function") 
-    callback();
+    console.log("执行外部函数的第1条信息："+msg);
+    if(typeof callback == "function"){
+    callback();} ;
+    console.log("执行外部函数的最后1条信息："+msg);
  } 
-doSomething("回调函数", function(){
-    console.log("匿名函数实现回调!");
+doSomething("体验内部callback函数的运行顺序", function(){
+    console.log("执行内部的匿名函数，实现回调!");
  }); 
 ```
 
