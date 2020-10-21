@@ -43,8 +43,8 @@
 	- [多线程同步](/chapters/JS(ES6)核心逻辑/使用python在线体验多线程同步.md) 
 	- [多进程](/chapters/JS(ES6)核心逻辑/使用python在线体验多进程.md)
 - [在1个函数中把另外1个函数作为参数调用的callback](/chapters/JS(ES6)核心逻辑/在1个函数中把另外1个函数作为参数调用的callback.md)
-- [Promise](/chapters/JS(ES6)核心逻辑/Promise.md)
-- [Async+await](/chapters/JS(ES6)核心逻辑/Async+await.md)
+- [使callback写起来更简洁&更合理的Promise对象](/chapters/JS(ES6)核心逻辑/使callback写起来更简洁&更合理的Promise对象.md)
+- [使Promise写起来更简洁，更合理的async+await风格](/chapters/JS(ES6)核心逻辑/使Promise写起来更简洁，更合理的async+await风格.md)
 
 
 
