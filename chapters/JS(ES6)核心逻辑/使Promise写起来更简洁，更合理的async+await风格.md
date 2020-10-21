@@ -1,6 +1,6 @@
 # 使Promise写起来更简洁，更合理的async+await风格
 
-#### await literally suspends the function execution until the promise settles, and then resumes it with the promise result. That doesn’t cost any CPU resources, because the JavaScript engine can do other jobs in the meantime: execute other scripts, handle events, etc.
+- await literally suspends the function execution **until the promise settles, and then resumes it with the promise result**. That doesn’t cost any CPU resources, **because the JavaScript engine can do other jobs in the meantime: execute other scripts, handle events,** etc.
 
 ## 打开实验文件
 
