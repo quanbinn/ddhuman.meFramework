@@ -161,8 +161,8 @@ loadScript('1.js', function(error, script) {
 1. [Async/await](https://javascript.info/async-await)
 2. [async function from **MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 3. [Making asynchronous programming easier with async and await from **MDN**](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
-4. [ **async 函数的含义和用法 from 阮一峰 **](http://www.ruanyifeng.com/blog/2015/05/async.html)
-5. [ **async 函数 from 阮一峰 **](https://www.yuque.com/ostwind/es6/docs-async)
+4. [**async 函数的含义和用法 from 阮一峰**](http://www.ruanyifeng.com/blog/2015/05/async.html)
+5. [**async 函数 from 阮一峰**](https://www.yuque.com/ostwind/es6/docs-async)
 
 
 

@@ -135,7 +135,7 @@ loadScript('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js', s
 4. [Using Promises from **MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 5. [Promise from **MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 6. [Promise.prototype.then() from **MDN**](hhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then)
-7. [ **Promise 对象 from 阮一峰 **](https://javascript.ruanyifeng.com/advanced/promise.html)
+7. [**Promise 对象 from 阮一峰**](https://javascript.ruanyifeng.com/advanced/promise.html)
 
 
 
