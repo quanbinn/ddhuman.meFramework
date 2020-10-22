@@ -15,40 +15,57 @@
 ## ejs核心逻辑
 
 - [从**database**读取相应的业务数据](/chapters/ejs核心逻辑/从database读取相应的业务数据.md)
+- [render成html文件](/chapters/ejs核心逻辑/render成html文件.md)
 
 ## vue.js核心逻辑
 
-- [内容1](/chapters/vue.js核心逻辑/内容1.md)
+- [从**database**读取相应的业务数据](/chapters/vue.js核心逻辑/从database读取相应的业务数据.md)
+- [**Virtual DOM**](/chapters/vue.js核心逻辑/Virtual_DOM.md)
+- [diff()](/chapters/vue.js核心逻辑/diff().md)
+- [render成html文件](/chapters/vue.js核心逻辑/render成html文件.md)
 
 ## node.js核心逻辑
-
-- [通过v8引擎解析成c++执行？？](/chapters/node.js核心逻辑/通过v8引擎解析成c++执行？？.md)
+- [体验socket](/chapters/node.js核心逻辑/体验socket.md)
+- [体验同步多线程](/chapters/node.js核心逻辑/体验同步多线程.md)
+- [体验异步多线程](/chapters/node.js核心逻辑/体验异步多线程.md)
+- [**通过v8引擎解析成c++执行？？**](/chapters/node.js核心逻辑/通过v8引擎解析成c++执行？？.md)
+- 源自Javacript的使用功能
+	- [file](/chapters/node.js核心逻辑/file.md)
+- [dir->path](/chapters/node.js核心逻辑/dir_path.md)
 
 ## koa.js核心逻辑
 
 - [app对象](/chapters/koa.js核心逻辑/app对象.md)
+- [middleware:context](/chapters/koa.js核心逻辑/middleware:context.md)
+- [middleware:next](/chapters/koa.js核心逻辑/middleware:next.md)
+- [middleware:READ.ME文档](/chapters/koa.js核心逻辑/middleware:READ.ME文档.md)
 
 ## egg.js核心逻辑
-
-- [内容1](/chapters/gg.js核心逻辑/内容1.md)
+- **MVC + Router**
+	- [Model(Database)](/chapters/gg.js核心逻辑/Model(Database).md)
+	- [View](/chapters/gg.js核心逻辑/View.md)
+	- [Controller类](/chapters/gg.js核心逻辑/Controller类.md)
+	- [Router](/chapters/gg.js核心逻辑/Router.md)
+- [egg-init的原理](/chapters/gg.js核心逻辑/egg-init的原理.md)
+- [user-role-previleage:Token](/chapters/gg.js核心逻辑/user-role-previleage:Token.md)
 
 ## JS(ES6)核心逻辑
-
-- 体验基本用法
-  - [采用strict mode使代码运行安全，并且提高编译效率](/chapters/JS(ES6)核心逻辑/采用strict_mode使代码运行安全&提高编译效率.md)
-  - [调用子文件中多种对象的module功能](/chapters/JS(ES6)核心逻辑/调用子文件中多种对象的module功能.md)
-  - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
-  - [使用try..catch语句处理程序运行错误](/chapters/JS(ES6)核心逻辑/使用try..catch语句处理程序运行错误.md)
 
 - 使用python体验多线程和多进程
 	- [多线程](/chapters/JS(ES6)核心逻辑/使用python体验多线程.md)
 	- [多线程同步](/chapters/JS(ES6)核心逻辑/使用python体验多线程同步.md) 
 	- [多进程](/chapters/JS(ES6)核心逻辑/使用python体验多进程.md)
 
-- 体验异步的实现方式
+- **体验异步的实现方式**
   - [在1个函数中把另外1个函数作为参数调用的callback](/chapters/JS(ES6)核心逻辑/在1个函数中把另外1个函数作为参数调用的callback.md)
   - [使callback写起来更简洁&更合理的Promise对象](/chapters/JS(ES6)核心逻辑/使callback写起来更简洁&更合理的Promise对象.md)
   - [使Promise写起来更简洁，更合理的async+await风格](/chapters/JS(ES6)核心逻辑/使Promise写起来更简洁，更合理的async+await风格.md)
+
+- 体验基本用法
+  - [采用strict mode使代码运行安全，并且提高编译效率](/chapters/JS(ES6)核心逻辑/采用strict_mode使代码运行安全&提高编译效率.md)
+  - [调用子文件中多种对象的module功能](/chapters/JS(ES6)核心逻辑/调用子文件中多种对象的module功能.md)
+  - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
+  - [使用try..catch语句处理程序运行错误](/chapters/JS(ES6)核心逻辑/使用try..catch语句处理程序运行错误.md)
 
 
 
