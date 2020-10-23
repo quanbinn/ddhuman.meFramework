@@ -33,8 +33,10 @@
 	- [**Virtual DOM**](/chapters/vue.js核心逻辑/Virtual_DOM.md)
 	- [diff()](/chapters/vue.js核心逻辑/diff().md)
 
-## node.js核心逻辑
+## node.js核心逻辑（下周）
 
+- [体验socket](/chapters/node.js核心逻辑/体验socket.md)
+- [体验socket](/chapters/node.js核心逻辑/体验socket.md)
 - [体验socket](/chapters/node.js核心逻辑/体验socket.md)
 - [体验同步多线程](/chapters/node.js核心逻辑/体验同步多线程.md)
 - [体验异步多线程](/chapters/node.js核心逻辑/体验异步多线程.md)
