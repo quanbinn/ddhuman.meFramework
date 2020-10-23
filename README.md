@@ -29,9 +29,9 @@
 - [HTTP发送PUT请求后覆写Database数据](/chapters/vue.js核心逻辑/HTTP发送PUT请求后覆写Database数据.md)
 - [HTTP发送DELETE请求后删除Database数据](/chapters/vue.js核心逻辑/HTTP发送DELETE请求后删除Database数据)
 - [从Database取得数据通过Template **Render** 成html文件](/chapters/vue.js核心逻辑/从Database取得数据通过TemplateRender成html文件.md)
-
-- [**Virtual DOM**](/chapters/vue.js核心逻辑/Virtual_DOM.md)
-- [diff()](/chapters/vue.js核心逻辑/diff().md)
+- 背后的数据结构和算法
+	- [**Virtual DOM**](/chapters/vue.js核心逻辑/Virtual_DOM.md)
+	- [diff()](/chapters/vue.js核心逻辑/diff().md)
 
 ## node.js核心逻辑
 
