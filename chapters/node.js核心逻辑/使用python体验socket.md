@@ -214,7 +214,10 @@ if __name__ == '__main__':
 
 ## Reference
 
-1. 董付国.[Python可以这样学](http://product.dangdang.com/24180463.html).第10章:网络程序设计.
+1. [Network socket](https://en.wikipedia.org/wiki/Network_socket)
+2. [Unix domain socket](https://en.wikipedia.org/wiki/Unix_domain_socket)
+3. 董付国.[Python可以这样学](http://product.dangdang.com/24180463.html).第10章:网络程序设计.
+
 
 
 
