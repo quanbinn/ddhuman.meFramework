@@ -38,22 +38,21 @@
 	- [file](/chapters/node.js核心逻辑/file.md)
 	- [通过v8引擎解析成c++执行](/chapters/node.js核心逻辑/通过v8引擎解析成c++执行.md)
 
-## koa.js核心逻辑（两周后）
+## koa.js核心逻辑
 
-- [app对象](/chapters/koa.js核心逻辑/app对象.md)
-- [middleware:context](/chapters/koa.js核心逻辑/middleware:context.md)
-- [middleware:next](/chapters/koa.js核心逻辑/middleware:next.md)
-- [middleware:READ.ME文档](/chapters/koa.js核心逻辑/middleware:READ.ME文档.md)
+- [包含一系列中间件函数的app对象](/chapters/koa.js核心逻辑/包含一系列中间件函数的app对象.md)
+- [把nodejs的request和Response对象封装到一起的Context对象](/chapters/koa.js核心逻辑/把nodejs的request和Response对象封装到一起的Context对象.md)
+- [把nodejs的request对象抽象后的request对象](/chapters/koa.js核心逻辑/把nodejs的request对象抽象后的request对象.md)
+- [把nodejs的response对象抽象后的response对象](/chapters/koa.js核心逻辑/把nodejs的response对象抽象后的response对象.md)
 
-## egg.js核心逻辑（两周后）
+## egg.js核心逻辑
 
 - **MVC + Router**
 	- [Model(Database)](/chapters/gg.js核心逻辑/Model(Database).md)
 	- [View](/chapters/gg.js核心逻辑/View.md)
 	- [Controller类](/chapters/gg.js核心逻辑/Controller类.md)
 	- [Router](/chapters/gg.js核心逻辑/Router.md)
-- [egg-init的原理](/chapters/gg.js核心逻辑/egg-init的原理.md)
-- [user-role-previleage:Token](/chapters/gg.js核心逻辑/user-role-previleage:Token.md)
+- [理解egg-init的原理](/chapters/gg.js核心逻辑/理解egg-init的原理.md)
 
 ## JS(ES6)核心逻辑
 
