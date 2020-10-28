@@ -12,36 +12,40 @@
 9. [Testing](/chapters/一步步教程_代办事项应用/Testing.md)
 10. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
 
-## vue.js核心逻辑
+## vue.js核心逻辑（下周）
 
+- **体验背后的数据结构和算法**
+  - [体验html页面的DOM结构和节点数据](/chapters/vue.js核心逻辑/体验html页面的DOM结构和节点数据.md)
+  - [用js创建html页面中的标签内容](/chapters/vue.js核心逻辑/用js创建html页面中的标签内容.md)
+  - [理解**Virtual DOM**和**diff()**](/chapters/vue.js核心逻辑/理解Virtual_DOM和diff().md)
 - [对Database进行CRUD操作](/chapters/vue.js核心逻辑/对Database进行CRUD操作.md)
-- [GET请求后取得Database数据](/chapters/vue.js核心逻辑/HTTP发送GET请求后取得Database数据.md)
-- [POST请求后写入Database数据](/chapters/vue.js核心逻辑/HTTP发送POST请求后写入Database数据.md)
-- [PUT请求后覆写Database数据](/chapters/vue.js核心逻辑/HTTP发送PUT请求后覆写Database数据.md)
-- [DELETE请求后删除Database数据](/chapters/vue.js核心逻辑/HTTP发送DELETE请求后删除Database数据)
+- **HTTP的4种请求对Database进行CRUD操作**
+  - [GET请求后取得Database数据](/chapters/vue.js核心逻辑/GET请求后取得Database数据.md)
+  - [POST请求后写入Database数据](/chapters/vue.js核心逻辑/POST请求后写入Database数据.md)
+  - [PUT请求后覆写Database数据](/chapters/vue.js核心逻辑/PUT请求后覆写Database数据.md)
+  - [DELETE请求后删除Database数据](/chapters/vue.js核心逻辑/DELETE请求后删除Database数据)
 - [从Database取得数据通过Template **Render** 成html文件](/chapters/vue.js核心逻辑/从Database取得数据通过TemplateRender成html文件.md)
-- 背后的数据结构和算法
-	- [**Virtual DOM**](/chapters/vue.js核心逻辑/Virtual_DOM.md)
-	- [diff()](/chapters/vue.js核心逻辑/diff().md)
 
-## node.js核心逻辑（下周）
+## node.js核心逻辑
 
 - [使用python体验socket](/chapters/node.js核心逻辑/使用python体验socket.md)
-- [体验同步多线程](/chapters/node.js核心逻辑/体验同步多线程.md)
-- [体验异步多线程](/chapters/node.js核心逻辑/体验异步多线程.md)
-- [**通过v8引擎解析成c++执行？？**](/chapters/node.js核心逻辑/通过v8引擎解析成c++执行？？.md)
+- [创建createServer()处理CtoSData和StoCData](/chapters/node.js核心逻辑/创建createServer()处理CtoSData和StoCData.md)
+- [解析CtoSData中的url](/chapters/node.js核心逻辑/解析CtoSData中的url.md)
+- [体验CtoS和StoC数据传输中的stream](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的stream.md)
+- [体验CtoS和StoC数据传输中对file的CRUD操作](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中对file的CRUD操作.md)
+- [体验CtoS和StoC数据传输中的path功能](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的path功能.md)
 - 源自Javacript的使用功能
 	- [file](/chapters/node.js核心逻辑/file.md)
-- [dir->path](/chapters/node.js核心逻辑/dir_path.md)
+	- [通过v8引擎解析成c++执行](/chapters/node.js核心逻辑/通过v8引擎解析成c++执行.md)
 
-## koa.js核心逻辑
+## koa.js核心逻辑（两周后）
 
 - [app对象](/chapters/koa.js核心逻辑/app对象.md)
 - [middleware:context](/chapters/koa.js核心逻辑/middleware:context.md)
 - [middleware:next](/chapters/koa.js核心逻辑/middleware:next.md)
 - [middleware:READ.ME文档](/chapters/koa.js核心逻辑/middleware:READ.ME文档.md)
 
-## egg.js核心逻辑
+## egg.js核心逻辑（两周后）
 
 - **MVC + Router**
 	- [Model(Database)](/chapters/gg.js核心逻辑/Model(Database).md)
