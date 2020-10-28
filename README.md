@@ -12,7 +12,7 @@
 9. [Testing](/chapters/一步步教程_代办事项应用/Testing.md)
 10. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
 
-## vue.js核心逻辑（下周）
+## vue.js核心逻辑
 
 - **体验背后的数据结构和算法**
   - [体验html页面的DOM结构和节点数据](/chapters/vue.js核心逻辑/体验html页面的DOM结构和节点数据.md)
