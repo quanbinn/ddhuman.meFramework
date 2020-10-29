@@ -47,8 +47,7 @@
 
 ## Reference
 
-1. 维基百科
-	- [Binary tree](https://en.wikipedia.org/wiki/Binary_tree) 
+1. [Examples of Trees](https://runestone.academy/runestone/books/published/pythonds/Trees/ExamplesofTrees.html) 
 
 
 
