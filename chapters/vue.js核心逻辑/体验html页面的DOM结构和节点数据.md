@@ -45,6 +45,10 @@
 </html>
 ```
 
+![](/images/vue.js核心逻辑/体验html页面的DOM结构和节点数据/1a.png)
+
+![](/images/vue.js核心逻辑/体验html页面的DOM结构和节点数据/1b.jpg)
+
 ## Reference
 
 1. [Examples of Trees](https://runestone.academy/runestone/books/published/pythonds/Trees/ExamplesofTrees.html) 
