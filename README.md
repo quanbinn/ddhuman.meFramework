@@ -18,23 +18,28 @@
   - [体验html页面的DOM结构和节点数据](/chapters/vue.js核心逻辑/体验html页面的DOM结构和节点数据.md)
   - [用js创建html页面中的标签内容](/chapters/vue.js核心逻辑/用js创建html页面中的标签内容.md)
   - [理解**Virtual DOM**和**diff()**](/chapters/vue.js核心逻辑/理解Virtual_DOM和diff().md)
+ 
 - [对Database进行CRUD操作](/chapters/vue.js核心逻辑/对Database进行CRUD操作.md)
+
 - **HTTP的4种请求对Database进行CRUD操作**
   - [GET请求后取得Database数据](/chapters/vue.js核心逻辑/GET请求后取得Database数据.md)
   - [POST请求后写入Database数据](/chapters/vue.js核心逻辑/POST请求后写入Database数据.md)
   - [PUT请求后覆写Database数据](/chapters/vue.js核心逻辑/PUT请求后覆写Database数据.md)
   - [DELETE请求后删除Database数据](/chapters/vue.js核心逻辑/DELETE请求后删除Database数据)
+ 
 - [从Database取得数据通过Template **Render** 成html文件](/chapters/vue.js核心逻辑/从Database取得数据通过TemplateRender成html文件.md)
 
 ## node.js核心逻辑
 
 - [使用python体验socket](/chapters/node.js核心逻辑/使用python体验socket.md)
+
 - Client <-> Server数据传输中的重要功能
 	- [创建createServer()处理CtoSData和StoCData](/chapters/node.js核心逻辑/创建createServer()处理CtoSData和StoCData.md)
 	- [解析CtoSData中的url](/chapters/node.js核心逻辑/解析CtoSData中的url.md)
 	- [体验CtoS和StoC数据传输中的stream](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的stream.md)
 	- [体验CtoS和StoC数据传输中对file的CRUD操作](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中对file的CRUD操作.md)
 	- [体验CtoS和StoC数据传输中的path功能](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的path功能.md)
+
 - 源自Javacript的使用功能
 	- [file](/chapters/node.js核心逻辑/file.md)
 	- [通过v8引擎解析成c++执行](/chapters/node.js核心逻辑/通过v8引擎解析成c++执行.md)
@@ -53,6 +58,7 @@
 	- [View](/chapters/gg.js核心逻辑/View.md)
 	- [Controller类](/chapters/gg.js核心逻辑/Controller类.md)
 	- [Router](/chapters/gg.js核心逻辑/Router.md)
+
 - [理解egg-init的原理](/chapters/gg.js核心逻辑/理解egg-init的原理.md)
 
 ## JS(ES6)核心逻辑
