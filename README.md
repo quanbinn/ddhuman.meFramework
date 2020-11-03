@@ -31,7 +31,7 @@
 
 ## node.js核心逻辑
 
-- [**使用python体验socket**](/chapters/node.js核心逻辑/使用python体验socket.md)
+- [**使用python体验socket** - 类比想象node通过v8解析成c++执行](/chapters/node.js核心逻辑/使用python体验socket.md)
 
 - **Client <-> Server数据传输中的重要功能**
 	- [创建createServer()处理CtoSData和StoCData](/chapters/node.js核心逻辑/创建createServer()处理CtoSData和StoCData.md)
@@ -39,10 +39,6 @@
 	- [体验CtoS和StoC数据传输中的stream](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的stream.md)
 	- [体验CtoS和StoC数据传输中对file的CRUD操作](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中对file的CRUD操作.md)
 	- [体验CtoS和StoC数据传输中的path功能](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的path功能.md)
-
-- **源自Javacript的使用功能**
-	- [file](/chapters/node.js核心逻辑/file.md)
-	- [通过v8引擎解析成c++执行](/chapters/node.js核心逻辑/通过v8引擎解析成c++执行.md)
 
 ## koa.js核心逻辑
 
