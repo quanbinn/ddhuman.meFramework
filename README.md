@@ -7,10 +7,8 @@
 3. [Collections](/chapters/一步步教程_代办事项应用/Collections.md)
 4. [Forms and events](/chapters/一步步教程_代办事项应用/Forms_and_events.md)
 5. [Update and remove](/chapters/一步步教程_代办事项应用/Update_and_remove.md)
-7. [Temporary UI state](/chapters/一步步教程_代办事项应用/Temporary_UI_state.md)
-8. [Adding user accounts](/chapters/一步步教程_代办事项应用/Adding_user_accounts.md)
-9. [Testing](/chapters/一步步教程_代办事项应用/Testing.md)
-10. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
+6. [Adding user accounts](/chapters/一步步教程_代办事项应用/Adding_user_accounts.md)
+7. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
 
 ## vue.js核心逻辑
 
@@ -18,26 +16,23 @@
   - [体验html页面的DOM结构和节点数据](/chapters/vue.js核心逻辑/体验html页面的DOM结构和节点数据.md)
   - [用js创建html页面中的标签内容](/chapters/vue.js核心逻辑/用js创建html页面中的标签内容.md)
   - [理解**Virtual DOM**和**diff()**](/chapters/vue.js核心逻辑/理解Virtual_DOM和diff().md)
- 
-- [**对Database进行CRUD操作**](/chapters/vue.js核心逻辑/对Database进行CRUD操作.md)
 
 - **HTTP的4种请求对Database进行CRUD操作**
+  - [**对Database进行CRUD操作**](/chapters/vue.js核心逻辑/对Database进行CRUD操作.md)
   - [GET请求后取得Database数据](/chapters/vue.js核心逻辑/GET请求后取得Database数据.md)
   - [POST请求后写入Database数据](/chapters/vue.js核心逻辑/POST请求后写入Database数据.md)
   - [PUT请求后覆写Database数据](/chapters/vue.js核心逻辑/PUT请求后覆写Database数据.md)
   - [DELETE请求后删除Database数据](/chapters/vue.js核心逻辑/DELETE请求后删除Database数据)
- 
-- [**从Database取得数据通过Template Render成html文件**](/chapters/vue.js核心逻辑/从Database取得数据通过TemplateRender成html文件.md)
+  - [**从Database取得数据通过Template Render成html文件**](/chapters/vue.js核心逻辑/从Database取得数据通过TemplateRender成html文件.md)
 
 ## node.js核心逻辑
 
 - [**使用python体验socket** - 类比想象node通过v8解析成c++执行](/chapters/node.js核心逻辑/使用python体验socket.md)
-
-- **Client <-> Server数据传输中的重要功能**
+- **Client <----> Server数据传输中的重要功能**
 	- [创建createServer()处理CtoSData和StoCData](/chapters/node.js核心逻辑/创建createServer()处理CtoSData和StoCData.md)
 	- [解析CtoSData中的url](/chapters/node.js核心逻辑/解析CtoSData中的url.md)
 	- [体验CtoS和StoC数据传输中的stream](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的stream.md)
-	- [体验CtoS和StoC数据传输中对file的CRUD操作](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中对file的CRUD操作.md)
+	- [体验CtoS和StoC数据传输中对file的**CRUD**操作](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中对file的CRUD操作.md)
 	- [体验CtoS和StoC数据传输中的path功能](/chapters/node.js核心逻辑/体验CtoS和StoC数据传输中的path功能.md)
 
 ## koa.js核心逻辑
