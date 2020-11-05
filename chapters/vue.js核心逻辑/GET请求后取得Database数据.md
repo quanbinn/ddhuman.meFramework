@@ -1,4 +1,4 @@
-# HTTP发送GET请求后取得Database数据
+# GET请求后取得Database数据
 
 ## 打开实验文件
 
@@ -29,6 +29,40 @@
     </body>
 </html>
 ```
+
+### Loops
+
+```html
+<html>
+    <head>
+        <title>DDHuman.me</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>        
+        <div id="app-4">
+          <ol>
+            <li v-for="todo in todos">
+              {{ todo.text }}
+            </li>
+          </ol>
+        </div>    
+        <script type = "text/javascript">
+          var app4 = new Vue({
+            el: '#app-4',
+            data: {
+              todos: [
+                { text: 'Learn JavaScript' },
+                { text: 'Learn Vue' },
+                { text: 'Build something awesome' }
+              ]
+            }
+          })
+        </script>
+    </body>
+</html>
+```
+
+## 
 
 ## Reference
 
