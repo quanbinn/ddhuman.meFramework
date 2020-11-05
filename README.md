@@ -51,7 +51,7 @@
 			- [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
 		- [渲染request内容的View功能](/chapters/egg.js核心逻辑/渲染request内容的View功能.md)	
 
-- [**理解egg-init的加载原理和过程**](/chapters/gg.js核心逻辑/理解egg-init的加载原理和过程.md)
+- [**理解egg-init的加载原理和过程**](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
 ## JS(ES6)核心逻辑
 
