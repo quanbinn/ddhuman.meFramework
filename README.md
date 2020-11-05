@@ -45,12 +45,13 @@
 ## egg.js核心逻辑
 
 - **MVC + Router**
-	- [Model(Database)](/chapters/gg.js核心逻辑/Model(Database).md)
-	- [View](/chapters/gg.js核心逻辑/View.md)
-	- [Controller类](/chapters/gg.js核心逻辑/Controller类.md)
-	- [Router](/chapters/gg.js核心逻辑/Router.md)
+	- [体验在Koajs之外包裹的Middleware洋葱模型](/chapters/egg.js核心逻辑/体验在Koajs之外包裹的Middleware洋葱模型.md)
+	- [控制与request响应的response内容的Router](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
+		- [Manipulate Database(CRUD)](/chapters/egg.js核心逻辑/CRUD_Database).md)
+			- [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
+		- [渲染request内容的View功能](/chapters/egg.js核心逻辑/渲染request内容的View功能.md)	
 
-- [理解egg-init的原理](/chapters/gg.js核心逻辑/理解egg-init的原理.md)
+- [**理解egg-init的加载原理和过程**](/chapters/gg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
 ## JS(ES6)核心逻辑
 
