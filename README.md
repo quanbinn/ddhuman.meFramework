@@ -22,7 +22,7 @@
   - [GET请求后取得Database数据](/chapters/vue.js核心逻辑/GET请求后取得Database数据.md)
   - [POST请求后写入Database数据](/chapters/vue.js核心逻辑/POST请求后写入Database数据.md)
   - [PUT请求后覆写Database数据](/chapters/vue.js核心逻辑/PUT请求后覆写Database数据.md)
-  - [DELETE请求后删除Database数据](/chapters/vue.js核心逻辑/DELETE请求后删除Database数据.md)
+  - [DELETE请求后删除Database数据](/chapters/vue.js核心逻辑/DELETE请求后删除Database中的数据.md)
   - [**从Database取得数据通过Template Render成html文件**](/chapters/vue.js核心逻辑/从Database取得数据通过TemplateRender成html文件.md)
 
 ## node.js核心逻辑
