@@ -32,6 +32,8 @@
 
 ### Loops
 
+单击右方的[loops](http://tpcg.io/7u7XAeXb)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
+
 ```html
 <html>
     <head>

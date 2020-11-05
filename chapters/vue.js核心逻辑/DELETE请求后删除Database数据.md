@@ -2,7 +2,6 @@
 
 ## 打开实验文件
 
-### 调试环境1：
 单击右方的[vuejs-展示Data:第一个实验的标题 from tutorialspoint.com](http://tpcg.io/L9HHqh74)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
 ```javascript
