@@ -47,7 +47,7 @@
 - **MVC + Router**
 	- [体验在Koajs之外包裹的Middleware洋葱模型](/chapters/egg.js核心逻辑/体验在Koajs之外包裹的Middleware洋葱模型.md)
 	- [控制与request响应的response内容的Router](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
-		- [Manipulate Database(CRUD)](/chapters/egg.js核心逻辑/CRUD_Database).md)
+		- [Manipulate Database(CRUD)](/chapters/egg.js核心逻辑/CRUD_Database.md)
 			- [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
 		- [渲染request内容的View功能](/chapters/egg.js核心逻辑/渲染request内容的View功能.md)	
 
