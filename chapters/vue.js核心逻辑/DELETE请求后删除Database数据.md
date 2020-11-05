@@ -2,7 +2,7 @@
 
 ## 打开实验文件
 
-单击右方的[vuejs-展示Data:第一个实验的标题 from tutorialspoint.com](http://tpcg.io/L9HHqh74)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
+单击右方的[Delete handle user input into Database](http://tpcg.io/hoNsdjlR)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
 ```javascript
 <html>
@@ -11,16 +11,22 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>        
-        <div id="app" style="text-align:center;">
-            <h1>{{ message }}</h1>
-        </div>        
+        <div id="app-5">
+          <p>{{ message }}</p>
+          <button v-on:click="deleteExperiment">delete the experiment document</button>
+        </div>  
         <script type = "text/javascript">
-          var app = new Vue({ 
-            el: '#app',
+          var app5 = new Vue({
+            el: '#app-5',
             data: {
-              message: '第一个实验的标题'
+              message: 'delete the experiment document'
+            },
+            methods: {
+              deleteExperiment: function () {
+                alert("delete the experiment document by ID in the database!");
+              }
             }
-          });
+          })
         </script>
     </body>
 </html>

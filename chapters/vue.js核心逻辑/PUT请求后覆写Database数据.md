@@ -2,8 +2,7 @@
 
 ## 打开实验文件
 
-### 调试环境1：
-单击右方的[vuejs-展示Data:第一个实验的标题 from tutorialspoint.com](http://tpcg.io/L9HHqh74)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
+单击右方的[PUT handle user input into Database](http://tpcg.io/G7UMzobq)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
 ```javascript
 <html>
@@ -12,16 +11,22 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>        
-        <div id="app" style="text-align:center;">
-            <h1>{{ message }}</h1>
-        </div>        
+        <div id="app-5">
+          <p>{{ message }}</p>
+          <button v-on:click="updateExperiment">update experiment info</button>
+        </div>  
         <script type = "text/javascript">
-          var app = new Vue({ 
-            el: '#app',
+          var app5 = new Vue({
+            el: '#app-5',
             data: {
-              message: '第一个实验的标题'
+              message: 'input new data and update the experiment info'
+            },
+            methods: {
+              updateExperiment: function () {
+                alert("update experiment by ID in the database!")
+              }
             }
-          });
+          })
         </script>
     </body>
 </html>
