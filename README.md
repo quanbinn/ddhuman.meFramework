@@ -23,6 +23,26 @@
 
 ## vue.js核心逻辑
 
+- 典型*.vue
+
+| 互联网用户 | 文本 | 实体物品 | **Multimedia** |
+|:-------:|:-------:|:-------:|:-------:|
+|[普通用户]|[实验文章]|[学习用品]|[演示视频]|
+|[商家用户]|         |[工作用品]|[演示音频]|
+|    	  |         |[锻炼用品]|         |
+
+[普通用户]: /chapters/vue.js核心逻辑/普通用户.md
+[商家用户]: /chapters/vue.js核心逻辑/商家用户.md
+
+[实验文章]: /chapters/vue.js核心逻辑/实验文章.md
+
+[学习用品]: /chapters/vue.js核心逻辑/学习用品.md
+[工作用品]: /chapters/vue.js核心逻辑/工作用品.md
+[锻炼用品]: /chapters/vue.js核心逻辑/锻炼用品.md
+
+[演示视频]: /chapters/vue.js核心逻辑/演示视频.md
+[演示音频]: /chapters/vue.js核心逻辑/演示音频.md
+
 - **体验背后的数据结构和算法**
   - [体验html页面的DOM结构和节点数据](/chapters/vue.js核心逻辑/体验html页面的DOM结构和节点数据.md)
   - [用js创建html页面中的标签内容](/chapters/vue.js核心逻辑/用js创建html页面中的标签内容.md)
