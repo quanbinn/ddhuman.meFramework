@@ -10,6 +10,17 @@
 6. [Adding user accounts](/chapters/一步步教程_代办事项应用/Adding_user_accounts.md)
 7. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
 
+## egg.js核心逻辑
+
+- **MVC + Router**
+  - [体验在Koajs之外包裹的Middleware洋葱模型](/chapters/egg.js核心逻辑/体验在Koajs之外包裹的Middleware洋葱模型.md)
+  - [控制与request响应的response内容的Router](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
+    - [Manipulate Database(CRUD)](/chapters/egg.js核心逻辑/CRUD_Database.md)
+      - [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
+    - [渲染request内容的View功能](/chapters/egg.js核心逻辑/渲染request内容的View功能.md)	
+
+- [**理解egg-init的加载原理和过程**](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
+
 ## vue.js核心逻辑
 
 - **体验背后的数据结构和算法**
@@ -41,17 +52,6 @@
 	- [把nodejs的CtoSData和StoCData对象封装到一起的Context对象](/chapters/koa.js核心逻辑/把nodejs的CtoSData和StoCData对象封装到一起的Context对象.md)
 		- [把nodejs的CtoSData对象抽象后的CtoSData对象](/chapters/koa.js核心逻辑/把nodejs的CtoSData对象抽象后的CtoSData对象.md)
 		- [把nodejs的StoCData对象抽象后的StoCData对象](/chapters/koa.js核心逻辑/把nodejs的StoCData对象抽象后的StoCData对象.md)
-
-## egg.js核心逻辑
-
-- **MVC + Router**
-	- [体验在Koajs之外包裹的Middleware洋葱模型](/chapters/egg.js核心逻辑/体验在Koajs之外包裹的Middleware洋葱模型.md)
-	- [控制与request响应的response内容的Router](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
-		- [Manipulate Database(CRUD)](/chapters/egg.js核心逻辑/CRUD_Database.md)
-			- [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
-		- [渲染request内容的View功能](/chapters/egg.js核心逻辑/渲染request内容的View功能.md)	
-
-- [**理解egg-init的加载原理和过程**](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
 ## JS(ES6)核心逻辑
 
