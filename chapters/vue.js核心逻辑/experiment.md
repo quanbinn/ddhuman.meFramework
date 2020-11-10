@@ -2,7 +2,12 @@
 
 ## 打开实验文件
 
+### 调试环境1：
 单击右方的[experiment.vue](http://tpcg.io/jGNWJgx4)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
+
+### 调试环境2：
+单击右方的[experiment.vue from codepen.io](https://codepen.io/quanbinn/pen/ZEOqdLv), 浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
+
 
 ```javascript
 <html>
