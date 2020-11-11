@@ -1,4 +1,4 @@
-# experiment.vue
+# showAnExperiment.vue
 
 ## 打开实验文件
 

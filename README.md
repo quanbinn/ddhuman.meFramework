@@ -27,14 +27,15 @@
 
 | 互联网用户 | 文本 | 实体物品 | **Multimedia** |
 |:-------:|:-------:|:-------:|:-------:|
-|[普通用户]|[experiment]|[学习用品]|[演示视频]|
-|[商家用户]|         |[工作用品]|[演示音频]|
+|[普通用户]|[showAnExperiment]|[学习用品]|[演示视频]|
+|[商家用户]|[showExperiments]|[工作用品]|[演示音频]|
 |    	  |         |[锻炼用品]|         |
 
 [普通用户]: /chapters/vue.js核心逻辑/普通用户.md
 [商家用户]: /chapters/vue.js核心逻辑/商家用户.md
 
-[experiment]: /chapters/vue.js核心逻辑/experiment.md
+[showAnExperiment]: /chapters/vue.js核心逻辑/showAnExperiment.md
+[showExperiments]: /chapters/vue.js核心逻辑/showExperiments.md
 
 [学习用品]: /chapters/vue.js核心逻辑/学习用品.md
 [工作用品]: /chapters/vue.js核心逻辑/工作用品.md
