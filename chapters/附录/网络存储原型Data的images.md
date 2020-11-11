@@ -11,8 +11,8 @@
 ```
 
 ![](/images/附录/网络存储原型Data的images/用橡皮筋和小塑料棍感受函数某点的切线.png)
-![](/images/附录/网络存储原型Data的images/制作梯度下降实验的实体模型.png)
-![](/images/附录/网络存储原型Data的images/掷两个骰子试验.png)
+![](/images/附录/网络存储原型Data的images/制作梯度下降实验的实体模型.jpg)
+![](/images/附录/网络存储原型Data的images/掷两个骰子试验.jpg)
 
 ## Reference
 
