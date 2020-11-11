@@ -91,5 +91,10 @@
   - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
   - [使用try..catch语句处理程序运行错误](/chapters/JS(ES6)核心逻辑/使用try..catch语句处理程序运行错误.md)
 
+## 附录
+
+- [网络存储原型Data的images](/chapters/附录/网络存储原型Data的images.md)
+- [网络存储原型Data的videos](/chapters/附录/网络存储原型Data的videos.md)
+- [网络存储原型Data的audios](/chapters/附录/网络存储原型Data的audios.md)
 
 
