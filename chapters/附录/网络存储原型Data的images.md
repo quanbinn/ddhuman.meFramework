@@ -10,7 +10,9 @@
 <a href="https://gitee.com/quanbinn/Learn-Mathematical-Olympiad-The-Interactive-Way/blob/master/chapters/%E6%A6%82%E7%8E%87/%E6%8E%B7%E4%B8%A4%E4%B8%AA%E9%AA%B0%E5%AD%90%E8%AF%95%E9%AA%8C.md"><img src="https://i.ibb.co/JcWYz49/image.jpg" alt="掷两个骰子试验" height="600"></a>
 ```
 
-![](/images/vue.js核心逻辑/体验html页面的DOM结构和节点数据/1a.png)
+![](/images/附录/网络存储原型Data的images/用橡皮筋和小塑料棍感受函数某点的切线.png)
+![](/images/附录/网络存储原型Data的images/制作梯度下降实验的实体模型.png)
+![](/images/附录/网络存储原型Data的images/掷两个骰子试验.png)
 
 ## Reference
 
