@@ -28,12 +28,7 @@
         <script type = "text/javascript">
             Vue.component('specfic-exp', {
               props: ['exp'],
-              template: '<div>
-							<h1>实验名称：{{ exp.title }}</h1>
-							<a href="{{ exp.url }}"><img src="{{ exp.showImage }}" alt="用橡皮筋和小塑料棍感受函数某点的切线" width="400"></a>
-							<h1><a href="{{ exp.url }}">打开链接做实验</a></h1>
-							<h1>类别：{{ exp.tag }}</h1>
-			  			</div>'
+              template:  '<div><h1>实验名称：{{ exp.title }}</h1><a href="{{ exp.url }}"><img src="{{ exp.showImage }}" alt="用橡皮筋和小塑料棍感受函数某点的切线" width="400"></a><h1><a href="{{ exp.url }}">打开链接做实验</a></h1><p>类别：{{ exp.tag }}</p></div>'
             })
 
             var app = new Vue({
