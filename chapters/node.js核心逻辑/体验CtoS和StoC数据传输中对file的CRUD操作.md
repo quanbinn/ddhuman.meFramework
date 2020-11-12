@@ -1,8 +1,7 @@
 # 体验CtoS和StoC数据传输中对file的CRUD操作
 
-## R
+## Read
 
-### 调试环境：
 单击右方的[体验CtoS和StoC数据传输中对file的R操作 from repl.it](https://repl.it/@quanbinn/Ti-Yan-CtoSHe-StoCShu-Ju-Chuan-Shu-Zhong-Dui-fileDe-RCao-Zuo)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
 ### index.js
@@ -30,7 +29,7 @@ console.log("程序执行完毕。");
 文件读取实例
 ```
 
-## C+U
+## Create+Update
 
 ### 调试环境：
 单击右方的[体验CtoS和StoC数据传输中对file的U操作 from repl.it](https://repl.it/@quanbinn/Ti-Yan-CtoSHe-StoCShu-Ju-Chuan-Shu-Zhong-Dui-fileDe-UCao-Zuo)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
@@ -61,7 +60,7 @@ fs.writeFile('input.txt', '我是通 过fs.writeFile 写入文件的内容',  fu
 test update
 ```
 
-## D
+## Delete
 
 ### 调试环境：
 单击右方的[体验CtoS和StoC数据传输中对file的D操作 from repl.it](https://repl.it/@quanbinn/Ti-Yan-CtoSHe-StoCShu-Ju-Chuan-Shu-Zhong-Dui-fileDe-DCao-Zuo)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。

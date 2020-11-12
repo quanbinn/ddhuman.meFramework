@@ -4,7 +4,6 @@
 
 ## 打开实验文件
 
-### 调试环境：
 单击右方的[体验CtoS和StoC数据传输中的path功能 from repl.it](https://repl.it/@quanbinn/Ti-Yan-CtoSHe-StoCShu-Ju-Chuan-Shu-Zhong-De-pathGong-Neng)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
 ### index.js

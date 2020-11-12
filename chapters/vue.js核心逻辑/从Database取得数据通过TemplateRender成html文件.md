@@ -2,7 +2,7 @@
 
 ## 打开实验文件
 
-单击右方的[ Using template render to html](http://tpcg.io/4HfWXgAf)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
+单击右方的[Using template render to html](http://tpcg.io/4HfWXgAf)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
 ```javascript
 <html>

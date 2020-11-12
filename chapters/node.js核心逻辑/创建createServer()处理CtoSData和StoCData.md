@@ -2,11 +2,7 @@
 
 ## 打开实验文件
 
-### 调试环境1：
-单击右方的[创建createServer()处理CtoSData和StoCData **from codesandbox.io**](https://codesandbox.io/s/chuangjiancreateserverchulictosdatahestocdata-jsg8c)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
-
-### 调试环境2：
-单击右方的[创建createServer()处理CtoSData和StoCData](https://repl.it/@quanbinn/Chuang-Jian-createServerChu-Li-CtoSDataHe-StoCData)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
+单击右方的[创建createServer()处理CtoSData和StoCData](https://codesandbox.io/s/chuangjiancreateserverchulictosdatahestocdata-jsg8c)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
 ### index.js
 ```javascript
