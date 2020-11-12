@@ -20,6 +20,7 @@
 ## vue.js核心逻辑
 
 - 典型*.vue
+
 | 文本 | 实体物品 |
 |:-------:|:-------:|
 |[showAnExperiment]|[学习用品]|
@@ -32,6 +33,7 @@
 [学习用品]: /chapters/vue.js核心逻辑/学习用品.md
 [工作用品]: /chapters/vue.js核心逻辑/工作用品.md
 [锻炼用品]: /chapters/vue.js核心逻辑/锻炼用品.md
+
 - HTTP请求后对Database的CRUD
   - [对Database进行CRUD操作](/chapters/vue.js核心逻辑/对Database进行CRUD操作.md)
   - [GET请求后取得Database数据](/chapters/vue.js核心逻辑/GET请求后取得Database数据.md)
