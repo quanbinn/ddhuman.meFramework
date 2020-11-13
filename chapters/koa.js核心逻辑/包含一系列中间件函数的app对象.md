@@ -1,5 +1,11 @@
 # 包含一系列中间件函数的app对象
 
+## Koa.js的4个对象关系的重要逻辑 
+1. 生成了1个包含一系列函数的app对象 -> 
+2. app对象的构造函数里返回了1个ctx对象 -> 
+3. ctx对象的request属性生成了1个对象ctx.request
+4. ctx对象的response属性生成了1个对象ctx.response
+
 ## 打开实验文件
 
 ### 调试项目1：
