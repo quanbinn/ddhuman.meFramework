@@ -1,12 +1,5 @@
 # DDHuman.Me Framework
 
-## koa.js核心逻辑
-
-- [包含一系列中间件函数的app对象](/chapters/koa.js核心逻辑/包含一系列中间件函数的app对象.md)
-- [把nodejs的CtoSData和StoCData对象封装到一起的Context对象](/chapters/koa.js核心逻辑/把nodejs的CtoSData和StoCData对象封装到一起的Context对象.md)
-- [把nodejs的CtoSData对象抽象后的CtoSData对象](/chapters/koa.js核心逻辑/把nodejs的CtoSData对象抽象后的CtoSData对象.md)
-- [把nodejs的StoCData对象抽象后的StoCData对象](/chapters/koa.js核心逻辑/把nodejs的StoCData对象抽象后的StoCData对象.md)
-
 ## egg.js核心逻辑
 
 - Router + MVC
@@ -16,6 +9,13 @@
   - [渲染与request响应的response内容的View功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 - [体验包裹Koajs的多层嵌套模型](/chapters/egg.js核心逻辑/体验包裹Koajs的多层嵌套模型.md)
 - [理解egg-init的加载原理和过程](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
+
+## koa.js核心逻辑
+
+- [包含一系列中间件函数的app对象](/chapters/koa.js核心逻辑/包含一系列中间件函数的app对象.md)
+- [把nodejs的CtoSData和StoCData对象封装到一起的Context对象](/chapters/koa.js核心逻辑/把nodejs的CtoSData和StoCData对象封装到一起的Context对象.md)
+- [把nodejs的CtoSData对象抽象后的CtoSData对象](/chapters/koa.js核心逻辑/把nodejs的CtoSData对象抽象后的CtoSData对象.md)
+- [把nodejs的StoCData对象抽象后的StoCData对象](/chapters/koa.js核心逻辑/把nodejs的StoCData对象抽象后的StoCData对象.md)
 
 ## vue.js核心逻辑
 
@@ -71,6 +71,7 @@
   - [调用子文件中多种对象的module功能](/chapters/JS(ES6)核心逻辑/调用子文件中多种对象的module功能.md)
   - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
   - [使用try..catch语句处理程序运行错误](/chapters/JS(ES6)核心逻辑/使用try..catch语句处理程序运行错误.md)
+  - [class的典型用法](/chapters/JS(ES6)核心逻辑/class的典型用法.md)
 
 ## 代办事项的一步步教程
 

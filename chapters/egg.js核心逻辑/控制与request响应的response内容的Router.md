@@ -4,8 +4,9 @@
 
 单击右方的[--- **from codesandbox.io**]()，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
-### index.js
+### app/router.js
 ```javascript
+
 ```
 -------------------
 ## Koa.js-Router
@@ -14,7 +15,7 @@
 
 单击右方的[koa.js: Router](https://codesandbox.io/s/koajs-router-ude1h)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
-### index.js
+### router.js
 ```javascript
 const Koa = require('koa');
 const route = require('koa-route');
