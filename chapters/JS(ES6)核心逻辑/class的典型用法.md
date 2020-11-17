@@ -4,7 +4,6 @@
 
 ### javascript中Class里面的this (等同于python中Class里面的self)可以被理解为一组key和value的集合, 即this = {key1: value1, key2: value2, key3: value3 ...}, 表达的意义是property1: value1, property2: value2, property3: value3; ... . 
 
-
 单击右方的[在线代码段Url网址](http://pythontutor.com/visualize.html#code='use%20strict'%3B%0Aclass%20User%20%7B%0A%20%20constructor%28name%29%20%7B%0A%20%20%20%20//%20invokes%20the%20setter%0A%20%20%20%20this.name%20%3D%20name%3B%0A%20%20%7D%0A%20%20get%20name%28%29%20%7Breturn%20this._name%3B%7D%0A%20%20set%20name%28value%29%20%7B%0A%20%20%20%20if%20%28value.length%20%3C%204%29%20%7B%0A%20%20%20%20%20%20console.log%28value%29%3B%0A%20%20%20%20%20%20console.log%28%22Name%20is%20too%20short.%22%29%3B%0A%20%20%20%20%20%20return%3B%0A%20%20%20%20%7D%0A%20%20%20%20this._name%20%3D%20value%3B%0A%20%20%7D%0A%7D%0A%0Alet%20user%20%3D%20new%20User%28%22xia%22%29%3B%0Aconsole.log%28user.name%29%3B%20//%20John%0Auser%20%3D%20new%20User%28%22%22%29%3B%20//%20Name%20is%20too%20short.&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
 
 ```javascript
@@ -152,9 +151,10 @@ rabbit.stop(); // White Rabbit stands still. White rabbit hides!
 
 ## Reference
 
-1. [**Class basic syntax**](https://javascript.info/class)
-2. [**Class inheritance**](https://javascript.info/class-inheritance)
-3. [super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
+1. [Class (programming) from wikipedia](https://simple.wikipedia.org/wiki/Class_(programming))
+2. [**Class basic syntax**](https://javascript.info/class)
+3. [**Class inheritance**](https://javascript.info/class-inheritance)
+4. [super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
 
 
 
