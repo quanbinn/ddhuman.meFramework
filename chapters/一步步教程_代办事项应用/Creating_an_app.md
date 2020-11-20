@@ -1,8 +1,7 @@
 # Creating an app
 
 1. **安装比较新版本的nodejs和npm (egg.js要求npm >=6.1.0)**，例如安装Node.js v14.x版本的过程如下：
-
-``bash
+```bash
 $ sudo apt-get install curl
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install nodejs
