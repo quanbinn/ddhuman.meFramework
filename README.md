@@ -9,6 +9,15 @@
   - [渲染与request响应的response内容的View功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 - [理解egg-init的加载原理和过程](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
+## 代办事项的一步步教程
+
+1. [Creating an app](/chapters/一步步教程_代办事项应用/Creating_an_app.md)
+2. [Components](/chapters/一步步教程_代办事项应用/Components.md)
+3. [Collections](/chapters/一步步教程_代办事项应用/Collections.md)
+4. [Forms and events](/chapters/一步步教程_代办事项应用/Forms_and_events.md)
+5. [Update and remove](/chapters/一步步教程_代办事项应用/Update_and_remove.md)
+6. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
+
 ## koa.js核心逻辑
 
 - [包含一系列中间件函数的app对象](/chapters/koa.js核心逻辑/包含一系列中间件函数的app对象.md)
@@ -71,16 +80,6 @@
   - [让函数表达式看起来更简洁的=>写法](/chapters/JS(ES6)核心逻辑/让函数表达式看起来更简洁的Arrow写法.md)
   - [使用try..catch语句处理程序运行错误](/chapters/JS(ES6)核心逻辑/使用try..catch语句处理程序运行错误.md)
   - [class的典型用法](/chapters/JS(ES6)核心逻辑/class的典型用法.md)
-
-## 代办事项的一步步教程
-
-1. [Creating an app](/chapters/一步步教程_代办事项应用/Creating_an_app.md)
-2. [Components](/chapters/一步步教程_代办事项应用/Components.md)
-3. [Collections](/chapters/一步步教程_代办事项应用/Collections.md)
-4. [Forms and events](/chapters/一步步教程_代办事项应用/Forms_and_events.md)
-5. [Update and remove](/chapters/一步步教程_代办事项应用/Update_and_remove.md)
-6. [Adding user accounts](/chapters/一步步教程_代办事项应用/Adding_user_accounts.md)
-7. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
 
 ## 附录
 
