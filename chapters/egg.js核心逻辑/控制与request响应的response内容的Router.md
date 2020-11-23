@@ -1,12 +1,15 @@
 # 控制与request响应的response内容的Router
 
-## 打开实验文件
-
-单击右方的[--- **from codesandbox.io**]()，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
-
 ### app/router.js
 ```javascript
+'use strict';
 
+// @param {Egg.Application} app - egg application
+
+module.exports = app => {
+  const { router, controller } = app;
+  router.get('/', controller.home.index);
+};
 ```
 -------------------
 ## Koa.js-Router
