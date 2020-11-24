@@ -16,7 +16,6 @@
 3. [Collections](/chapters/一步步教程_代办事项应用/Collections.md)
 4. [Forms and events](/chapters/一步步教程_代办事项应用/Forms_and_events.md)
 5. [Update and remove](/chapters/一步步教程_代办事项应用/Update_and_remove.md)
-6. [Docker](/chapters/一步步教程_代办事项应用/Docker.md)
 
 ## koa.js核心逻辑
 

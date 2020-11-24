@@ -32,10 +32,7 @@ $ npm run dev
 ## Reference
 
 1. [eggjs.org快速入门](https://eggjs.org/zh-cn/intro/quickstart.html)
-2. [Vue.js：Introduction](https://vuejs.org/v2/guide/)
-3. [koa.js](https://koajs.com/)
-4. [Node.js](https://nodejs.org/api/http.html#http_server_listen_port_hostname_backlog_callback)
-5. [How to Install Latest Node.js on Ubuntu with Apt-Get](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
-6. [**NodeSource Node.js Binary Distributions**](https://github.com/nodesource/distributions/blob/master/README.md)
+2. [How to Install Latest Node.js on Ubuntu with Apt-Get](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
+3. [**NodeSource Node.js Binary Distributions**](https://github.com/nodesource/distributions/blob/master/README.md)
 
 
