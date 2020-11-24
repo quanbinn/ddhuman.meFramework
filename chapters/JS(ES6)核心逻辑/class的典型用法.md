@@ -56,48 +56,6 @@ console.log(rabbit.name); // White Rabbit
 ```
 
 ```javascript
-'use strict';
-class Clock {
-  constructor({ template }) {this.template = template;}
-  render() {
-    let date = new Date();
-    let hours = date.getHours();
-    if (hours < 10) hours = '0' + hours;
-    let mins = date.getMinutes();
-    if (mins < 10) mins = '0' + mins;
-    let secs = date.getSeconds();
-    if (secs < 10) secs = '0' + secs;
-    let output = this.template
-      .replace('h', hours)
-      .replace('m', mins)
-      .replace('s', secs);
-    console.log(output);
-  }
-  stop() {clearInterval(this.timer);}
-  start() {
-    this.render();
-    this.timer = setInterval(() => this.render(), 1000);
-  }
-}
-class ExtendedClock extends Clock {
-  constructor(options) {
-    super(options);
-    let { precision = 1000 } = options;
-    this.precision = precision;
-  }
-  start() {
-    this.render();
-    this.timer = setInterval(() => this.render(), this.precision);
-  }
-};
-let lowResolutionClock = new ExtendedClock({
-  template: 'h:m:s',
-  precision: 10000
-});
-lowResolutionClock.start();
-```
-
-```javascript
 class Animal {
   constructor(name) {
     this.speed = 0;
@@ -147,6 +105,87 @@ class Rabbit extends Animal {
 let rabbit = new Rabbit("White Rabbit");
 rabbit.run(5); // White Rabbit runs with speed 5.
 rabbit.stop(); // White Rabbit stands still. White rabbit hides!
+```
+
+### 打开浏览器(例如Chrome), 首先在渲染后的网页的任何一个位置右击，弹出一个菜单; 然后右击最后一项“检查”, 在出现的界面的左上角左击Console, 把下面的代码段粘贴到空白的输入界面中，按下“Enter”键运行这段代码。
+
+```javascript
+class Clock {
+  constructor({ template }) {
+    this.template = template;
+  }
+
+  render() {
+    let date = new Date();
+    let hours = date.getHours(); if (hours < 10) hours = '0' + hours;
+    let mins = date.getMinutes(); if (mins < 10) mins = '0' + mins;
+    let secs = date.getSeconds(); if (secs < 10) secs = '0' + secs;
+    let output = this.template
+      .replace('h', hours)
+      .replace('m', mins)
+      .replace('s', secs);
+    console.log(output);
+  }
+
+  stop() {
+    clearInterval(this.timer);
+  }
+
+  start() {
+    this.render();
+    this.timer = setInterval(() => this.render(), 1000);
+  }
+}
+
+class ExtendedClock extends Clock {
+  constructor(options) {
+    super(options);
+    let { precision = 1000 } = options;
+    this.precision = precision;
+  }
+
+  start() {
+    this.render();
+    this.timer = setInterval(() => this.render(), this.precision);
+  }
+};
+
+let lowResolutionClock = new ExtendedClock({
+  template: 'h:m:s',
+  precision: 10000
+});
+
+lowResolutionClock.start();
+```
+
+### 单击右方的[在线代码段Url网址](http://www.pythontutor.com/visualize.html#code=class%20Clock%20%7B%0A%20%20constructor%28%7B%20template%20%7D%29%20%7Bthis.template%20%3D%20template%3B%7D%0A%20%20render%28%29%20%7B%0A%20%20%20%20let%20date%20%3D%20new%20Date%28%29%3B%0A%20%20%20%20let%20hours%20%3D%20date.getHours%28%29%3B%20if%20%28hours%20%3C%2010%29%20hours%20%3D%20'0'%20%2B%20hours%3B%0A%20%20%20%20let%20mins%20%3D%20date.getMinutes%28%29%3B%20if%20%28mins%20%3C%2010%29%20mins%20%3D%20'0'%20%2B%20mins%3B%0A%20%20%20%20let%20secs%20%3D%20date.getSeconds%28%29%3B%20if%20%28secs%20%3C%2010%29%20secs%20%3D%20'0'%20%2B%20secs%3B%0A%20%20%20%20let%20output%20%3D%20this.template%0A%20%20%20%20%20%20.replace%28'h',%20hours%29%0A%20%20%20%20%20%20.replace%28'm',%20mins%29%0A%20%20%20%20%20%20.replace%28's',%20secs%29%3B%0A%20%20%20%20console.log%28output%29%3B%0A%20%20%20%20%7D%0A%20%20start%28%29%20%7Bthis.render%28%29%3B%7D%0A%7D%0Aclass%20ExtendedClock%20extends%20Clock%20%7B%0A%20%20constructor%28options%29%20%7B%0A%20%20%20%20super%28options%29%3B%0A%20%20%20%20let%20%7B%20precision%20%3D%201000%20%7D%20%3D%20options%3B%0A%20%20%20%20this.precision%20%3D%20precision%3B%0A%20%20%7D%0A%20%20start%28%29%20%7Bthis.render%28%29%3Bconsole.log%28this.precision%29%3B%7D%0A%7D%3B%0Alet%20lowResolutionClock%20%3D%20new%20ExtendedClock%28%7Btemplate%3A%20'h%3Am%3As',precision%3A%2010000%7D%29%3B%0AlowResolutionClock.start%28%29%3B&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
+
+```javascript
+class Clock {
+  constructor({ template }) {this.template = template;}
+  render() {
+    let date = new Date();
+    let hours = date.getHours(); if (hours < 10) hours = '0' + hours;
+    let mins = date.getMinutes(); if (mins < 10) mins = '0' + mins;
+    let secs = date.getSeconds(); if (secs < 10) secs = '0' + secs;
+    let output = this.template
+      .replace('h', hours)
+      .replace('m', mins)
+      .replace('s', secs);
+    console.log(output);
+    }
+  start() {this.render();}
+}
+class ExtendedClock extends Clock {
+  constructor(options) {
+    super(options);
+    let { precision = 1000 } = options;
+    this.precision = precision;
+  }
+  start() {this.render();console.log(this.precision);}
+};
+let lowResolutionClock = new ExtendedClock({template: 'h:m:s',precision: 10000});
+lowResolutionClock.start();
 ```
 
 ## Reference
