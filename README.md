@@ -2,10 +2,13 @@
 
 ## egg.js核心逻辑
 
-- Router + MVC
+- **R**outer
   - [控制与request响应的response内容的Router](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
-  - [**连接MongoDB**后CRUD-Database](/chapters/egg.js核心逻辑/连接MongoDB后CRUD-Database.md)
+- **C**troller
   - [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
+- **M**odel
+  - [**连接MongoDB**后CRUD-Database](/chapters/egg.js核心逻辑/连接MongoDB后CRUD-Database.md)
+- **V**iew
   - [渲染与request响应的response内容的View功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 - [理解egg-init的加载原理和过程](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
