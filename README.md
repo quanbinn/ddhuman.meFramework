@@ -6,77 +6,77 @@
 
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[learningEquip]|[register]|
-|[showExperiments]|[workingEquip]|[login]|
-|                   |[exerciseEquip]|[logout]|
+|[R_showAnExperiment]|[R_learningEquip]|[R_register]|
+|[R_showExperiments]|[R_workingEquip]|[R_login]|
+|                   |[R_exerciseEquip]|[R_logout]|
 
-[showAnExperiment]: /chapters/vue.js核心逻辑/Router/showAnExperiment.md
-[showExperiments]: /chapters/vue.js核心逻辑/Router/showExperiments.md
+[R_showAnExperiment]: /chapters/vue.js核心逻辑/Router/showAnExperiment.md
+[R_showExperiments]: /chapters/vue.js核心逻辑/Router/showExperiments.md
 
-[learningEquip]: /chapters/egg.js核心逻辑/Router/learningEquip.md
-[workingEquip]: /chapters/egg.js核心逻辑/Router/workingEquip.md
-[exerciseEquip]: /chapters/egg.js核心逻辑/Router/exerciseEquip.md
+[R_learningEquip]: /chapters/egg.js核心逻辑/Router/learningEquip.md
+[R_workingEquip]: /chapters/egg.js核心逻辑/Router/workingEquip.md
+[R_exerciseEquip]: /chapters/egg.js核心逻辑/Router/exerciseEquip.md
 
-[register]: /chapters/egg.js核心逻辑/Router/register.md
-[login]: /chapters/egg.js核心逻辑/Router/login.md
-[logout]: /chapters/egg.js核心逻辑/Router/logout.md
+[R_register]: /chapters/egg.js核心逻辑/Router/register.md
+[R_login]: /chapters/egg.js核心逻辑/Router/login.md
+[R_logout]: /chapters/egg.js核心逻辑/Router/logout.md
 
 - [解析用户输入/返回处理后结果的**Controller**类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
 
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[learningEquip]|[register]|
-|[showExperiments]|[workingEquip]|[login]|
-|                   |[exerciseEquip]|[logout]|
+|[C_showAnExperiment]|[C_learningEquip]|[C_register]|
+|[C_showExperiments]|[C_workingEquip]|[C_login]|
+|                   |[C_exerciseEquip]|[C_logout]|
 
-[showAnExperiment]: /chapters/vue.js核心逻辑/Ctroller/showAnExperiment.md
-[showExperiments]: /chapters/vue.js核心逻辑/Ctroller/showExperiments.md
+[C_showAnExperiment]: /chapters/vue.js核心逻辑/Ctroller/showAnExperiment.md
+[C_showExperiments]: /chapters/vue.js核心逻辑/Ctroller/showExperiments.md
 
-[learningEquip]: /chapters/egg.js核心逻辑/Ctroller/learningEquip.md
-[workingEquip]: /chapters/egg.js核心逻辑/Ctroller/workingEquip.md
-[exerciseEquip]: /chapters/egg.js核心逻辑/Ctroller/exerciseEquip.md
+[C_learningEquip]: /chapters/egg.js核心逻辑/Ctroller/learningEquip.md
+[C_workingEquip]: /chapters/egg.js核心逻辑/Ctroller/workingEquip.md
+[C_exerciseEquip]: /chapters/egg.js核心逻辑/Ctroller/exerciseEquip.md
 
-[register]: /chapters/egg.js核心逻辑/Ctroller/register.md
-[login]: /chapters/egg.js核心逻辑/Ctroller/login.md
-[logout]: /chapters/egg.js核心逻辑/Ctroller/logout.md
+[C_register]: /chapters/egg.js核心逻辑/Ctroller/register.md
+[C_login]: /chapters/egg.js核心逻辑/Ctroller/login.md
+[C_logout]: /chapters/egg.js核心逻辑/Ctroller/logout.md
 
 - [**连接MongoDB**后CRUD-Database](/chapters/egg.js核心逻辑/连接MongoDB后CRUD-Database.md)
 
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[learningEquip]|[register]|
-|[showExperiments]|[workingEquip]|[login]|
-|                   |[exerciseEquip]|[logout]|
+|[M_showAnExperiment]|[M_learningEquip]|[M_register]|
+|[M_showExperiments]|[M_workingEquip]|[M_login]|
+|                   |[M_exerciseEquip]|[M_logout]|
 
-[showAnExperiment]: /chapters/vue.js核心逻辑/Model/showAnExperiment.md
-[showExperiments]: /chapters/vue.js核心逻辑/Model/showExperiments.md
+[M_showAnExperiment]: /chapters/vue.js核心逻辑/Model/showAnExperiment.md
+[M_showExperiments]: /chapters/vue.js核心逻辑/Model/showExperiments.md
 
-[learningEquip]: /chapters/egg.js核心逻辑/Model/learningEquip.md
-[workingEquip]: /chapters/egg.js核心逻辑/Model/workingEquip.md
-[exerciseEquip]: /chapters/egg.js核心逻辑/Model/exerciseEquip.md
+[M_learningEquip]: /chapters/egg.js核心逻辑/Model/learningEquip.md
+[M_workingEquip]: /chapters/egg.js核心逻辑/Model/workingEquip.md
+[M_exerciseEquip]: /chapters/egg.js核心逻辑/Model/exerciseEquip.md
 
-[register]: /chapters/egg.js核心逻辑/Model/register.md
-[login]: /chapters/egg.js核心逻辑/Model/login.md
-[logout]: /chapters/egg.js核心逻辑/Model/logout.md
+[M_register]: /chapters/egg.js核心逻辑/Model/register.md
+[M_login]: /chapters/egg.js核心逻辑/Model/login.md
+[M_logout]: /chapters/egg.js核心逻辑/Model/logout.md
 
 - [渲染与request响应的response内容的**View**功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[learningEquip]|[register]|
-|[showExperiments]|[workingEquip]|[login]|
-|                   |[exerciseEquip]|[logout]|
+|[V_showAnExperiment]|[V_learningEquip]|[V_register]|
+|[V_showExperiments]|[V_workingEquip]|[V_login]|
+|                   |[V_exerciseEquip]|[V_logout]|
 
-[showAnExperiment]: /chapters/vue.js核心逻辑/View/showAnExperiment.md
-[showExperiments]: /chapters/vue.js核心逻辑/View/showExperiments.md
+[V_showAnExperiment]: /chapters/vue.js核心逻辑/View/showAnExperiment.md
+[V_showExperiments]: /chapters/vue.js核心逻辑/View/showExperiments.md
 
-[learningEquip]: /chapters/egg.js核心逻辑/View/learningEquip.md
-[workingEquip]: /chapters/egg.js核心逻辑/View/workingEquip.md
-[exerciseEquip]: /chapters/egg.js核心逻辑/View/exerciseEquip.md
+[V_learningEquip]: /chapters/egg.js核心逻辑/View/learningEquip.md
+[V_workingEquip]: /chapters/egg.js核心逻辑/View/workingEquip.md
+[V_exerciseEquip]: /chapters/egg.js核心逻辑/View/exerciseEquip.md
 
-[register]: /chapters/egg.js核心逻辑/View/register.md
-[login]: /chapters/egg.js核心逻辑/View/login.md
-[logout]: /chapters/egg.js核心逻辑/View/logout.md
+[V_register]: /chapters/egg.js核心逻辑/View/register.md
+[V_login]: /chapters/egg.js核心逻辑/View/login.md
+[V_logout]: /chapters/egg.js核心逻辑/View/logout.md
 
 - [理解egg-init的加载原理和过程](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
@@ -101,16 +101,16 @@
 
 | experiment | equipment |
 |:-------:|:-------:|
-|[showAnExperiment]|[learningEquip]|
-|[showExperiments]|[workingEquip]|
-|                   |[exerciseEquip]|
+|[VUE_showAnExperiment]|[VUE_learningEquip]|
+|[VUE_showExperiments]|[VUE_workingEquip]|
+|                   |[VUE_exerciseEquip]|
 
-[showAnExperiment]: /chapters/vue.js核心逻辑/showAnExperiment.md
-[showExperiments]: /chapters/vue.js核心逻辑/showExperiments.md
+[VUE_showAnExperiment]: /chapters/vue.js核心逻辑/showAnExperiment.md
+[VUE_showExperiments]: /chapters/vue.js核心逻辑/showExperiments.md
 
-[learningEquip]: /chapters/vue.js核心逻辑/learningEquip.md
-[workingEquip]: /chapters/vue.js核心逻辑/workingEquip.md
-[exerciseEquip]: /chapters/vue.js核心逻辑/exerciseEquip.md
+[VUE_learningEquip]: /chapters/vue.js核心逻辑/learningEquip.md
+[VUE_workingEquip]: /chapters/vue.js核心逻辑/workingEquip.md
+[VUE_exerciseEquip]: /chapters/vue.js核心逻辑/exerciseEquip.md
 
 - HTTP请求后对Database的CRUD
   - [对Database进行CRUD操作](/chapters/vue.js核心逻辑/对Database进行CRUD操作.md)
