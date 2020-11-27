@@ -4,7 +4,7 @@
 
 - [控制与request响应的response内容的**Router**](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
 
-| 文本 | 实体物品 | 实体物品 |
+|         |         |         |
 |:-------:|:-------:|:-------:|
 |[showAnExperiment]|[学习用品]|[register]|
 |[showExperiments]|[工作用品]|[login]|
@@ -83,7 +83,7 @@
 ## 代办事项的一步步教程
 
 1. [Creating an app](/chapters/一步步教程_代办事项应用/Creating_an_app.md)
-2. [Components](/chapters/一步步教程_代办事项应用/Components.md)
+2. [Templates OR Components](/chapters/一步步教程_代办事项应用/Components.md)
 3. [Collections](/chapters/一步步教程_代办事项应用/Collections.md)
 4. [Forms and events](/chapters/一步步教程_代办事项应用/Forms_and_events.md)
 5. [Update and remove](/chapters/一步步教程_代办事项应用/Update_and_remove.md)
