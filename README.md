@@ -4,18 +4,18 @@
 
 - [控制与request响应的response内容的**Router**](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
 
-|         |         |         |
+|experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[学习用品]|[register]|
-|[showExperiments]|[工作用品]|[login]|
-|                   |[锻炼用品]|[logout]|
+|[showAnExperiment]|[learningEquip]|[register]|
+|[showExperiments]|[workingEquip]|[login]|
+|                   |[exerciseEquip]|[logout]|
 
 [showAnExperiment]: /chapters/vue.js核心逻辑/Router/showAnExperiment.md
 [showExperiments]: /chapters/vue.js核心逻辑/Router/showExperiments.md
 
-[学习用品]: /chapters/egg.js核心逻辑/Router/学习用品.md
-[工作用品]: /chapters/egg.js核心逻辑/Router/工作用品.md
-[锻炼用品]: /chapters/egg.js核心逻辑/Router/锻炼用品.md
+[learningEquip]: /chapters/egg.js核心逻辑/Router/learningEquip.md
+[workingEquip]: /chapters/egg.js核心逻辑/Router/workingEquip.md
+[exerciseEquip]: /chapters/egg.js核心逻辑/Router/exerciseEquip.md
 
 [register]: /chapters/egg.js核心逻辑/Router/register.md
 [login]: /chapters/egg.js核心逻辑/Router/login.md
@@ -23,18 +23,18 @@
 
 - [解析用户输入/返回处理后结果的**Controller**类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
 
-| 文本 | 实体物品 | 实体物品 |
+|experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[学习用品]|[register]|
-|[showExperiments]|[工作用品]|[login]|
-|                   |[锻炼用品]|[logout]|
+|[showAnExperiment]|[learningEquip]|[register]|
+|[showExperiments]|[workingEquip]|[login]|
+|                   |[exerciseEquip]|[logout]|
 
 [showAnExperiment]: /chapters/vue.js核心逻辑/Ctroller/showAnExperiment.md
 [showExperiments]: /chapters/vue.js核心逻辑/Ctroller/showExperiments.md
 
-[学习用品]: /chapters/egg.js核心逻辑/Ctroller/学习用品.md
-[工作用品]: /chapters/egg.js核心逻辑/Ctroller/工作用品.md
-[锻炼用品]: /chapters/egg.js核心逻辑/Ctroller/锻炼用品.md
+[learningEquip]: /chapters/egg.js核心逻辑/Ctroller/learningEquip.md
+[workingEquip]: /chapters/egg.js核心逻辑/Ctroller/workingEquip.md
+[exerciseEquip]: /chapters/egg.js核心逻辑/Ctroller/exerciseEquip.md
 
 [register]: /chapters/egg.js核心逻辑/Ctroller/register.md
 [login]: /chapters/egg.js核心逻辑/Ctroller/login.md
@@ -42,18 +42,18 @@
 
 - [**连接MongoDB**后CRUD-Database](/chapters/egg.js核心逻辑/连接MongoDB后CRUD-Database.md)
 
-| 文本 | 实体物品 | 实体物品 |
+|experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[学习用品]|[register]|
-|[showExperiments]|[工作用品]|[login]|
-|                   |[锻炼用品]|[logout]|
+|[showAnExperiment]|[learningEquip]|[register]|
+|[showExperiments]|[workingEquip]|[login]|
+|                   |[exerciseEquip]|[logout]|
 
 [showAnExperiment]: /chapters/vue.js核心逻辑/Model/showAnExperiment.md
 [showExperiments]: /chapters/vue.js核心逻辑/Model/showExperiments.md
 
-[学习用品]: /chapters/egg.js核心逻辑/Model/学习用品.md
-[工作用品]: /chapters/egg.js核心逻辑/Model/工作用品.md
-[锻炼用品]: /chapters/egg.js核心逻辑/Model/锻炼用品.md
+[learningEquip]: /chapters/egg.js核心逻辑/Model/learningEquip.md
+[workingEquip]: /chapters/egg.js核心逻辑/Model/workingEquip.md
+[exerciseEquip]: /chapters/egg.js核心逻辑/Model/exerciseEquip.md
 
 [register]: /chapters/egg.js核心逻辑/Model/register.md
 [login]: /chapters/egg.js核心逻辑/Model/login.md
@@ -61,18 +61,18 @@
 
 - [渲染与request响应的response内容的**View**功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 
-| 文本 | 实体物品 | 实体物品 |
+|experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
-|[showAnExperiment]|[学习用品]|[register]|
-|[showExperiments]|[工作用品]|[login]|
-|                   |[锻炼用品]|[logout]|
+|[showAnExperiment]|[learningEquip]|[register]|
+|[showExperiments]|[workingEquip]|[login]|
+|                   |[exerciseEquip]|[logout]|
 
 [showAnExperiment]: /chapters/vue.js核心逻辑/View/showAnExperiment.md
 [showExperiments]: /chapters/vue.js核心逻辑/View/showExperiments.md
 
-[学习用品]: /chapters/egg.js核心逻辑/View/学习用品.md
-[工作用品]: /chapters/egg.js核心逻辑/View/工作用品.md
-[锻炼用品]: /chapters/egg.js核心逻辑/View/锻炼用品.md
+[learningEquip]: /chapters/egg.js核心逻辑/View/learningEquip.md
+[workingEquip]: /chapters/egg.js核心逻辑/View/workingEquip.md
+[exerciseEquip]: /chapters/egg.js核心逻辑/View/exerciseEquip.md
 
 [register]: /chapters/egg.js核心逻辑/View/register.md
 [login]: /chapters/egg.js核心逻辑/View/login.md
@@ -99,18 +99,18 @@
 
 - 典型*.vue
 
-| 文本 | 实体物品 |
+| experiment | equipment |
 |:-------:|:-------:|
-|[showAnExperiment]|[学习用品]|
-|[showExperiments]|[工作用品]|
-|                   |[锻炼用品]|
+|[showAnExperiment]|[learningEquip]|
+|[showExperiments]|[workingEquip]|
+|                   |[exerciseEquip]|
 
 [showAnExperiment]: /chapters/vue.js核心逻辑/showAnExperiment.md
 [showExperiments]: /chapters/vue.js核心逻辑/showExperiments.md
 
-[学习用品]: /chapters/vue.js核心逻辑/学习用品.md
-[工作用品]: /chapters/vue.js核心逻辑/工作用品.md
-[锻炼用品]: /chapters/vue.js核心逻辑/锻炼用品.md
+[learningEquip]: /chapters/vue.js核心逻辑/learningEquip.md
+[workingEquip]: /chapters/vue.js核心逻辑/workingEquip.md
+[exerciseEquip]: /chapters/vue.js核心逻辑/exerciseEquip.md
 
 - HTTP请求后对Database的CRUD
   - [对Database进行CRUD操作](/chapters/vue.js核心逻辑/对Database进行CRUD操作.md)
