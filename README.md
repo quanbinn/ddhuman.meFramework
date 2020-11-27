@@ -2,8 +2,7 @@
 
 ## egg.js核心逻辑
 
-- **R**outer
-  - [控制与request响应的response内容的Router](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
+- [控制与request响应的response内容的**Router**](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
 
 | 文本 | 实体物品 | 实体物品 |
 |:-------:|:-------:|:-------:|
@@ -22,8 +21,7 @@
 [login]: /chapters/egg.js核心逻辑/Router/login.md
 [logout]: /chapters/egg.js核心逻辑/Router/logout.md
 
-- **C**troller
-  - [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
+- [解析用户输入/返回处理后结果的**Controller**类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
 
 | 文本 | 实体物品 | 实体物品 |
 |:-------:|:-------:|:-------:|
@@ -42,8 +40,7 @@
 [login]: /chapters/egg.js核心逻辑/Ctroller/login.md
 [logout]: /chapters/egg.js核心逻辑/Ctroller/logout.md
 
-- **M**odel
-  - [**连接MongoDB**后CRUD-Database](/chapters/egg.js核心逻辑/连接MongoDB后CRUD-Database.md)
+- [**连接MongoDB**后CRUD-Database](/chapters/egg.js核心逻辑/连接MongoDB后CRUD-Database.md)
 
 | 文本 | 实体物品 | 实体物品 |
 |:-------:|:-------:|:-------:|
@@ -62,8 +59,7 @@
 [login]: /chapters/egg.js核心逻辑/Model/login.md
 [logout]: /chapters/egg.js核心逻辑/Model/logout.md
 
-- **V**iew
-  - [渲染与request响应的response内容的View功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
+- [渲染与request响应的response内容的**View**功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 
 | 文本 | 实体物品 | 实体物品 |
 |:-------:|:-------:|:-------:|
