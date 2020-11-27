@@ -4,12 +4,84 @@
 
 - **R**outer
   - [控制与request响应的response内容的Router](/chapters/egg.js核心逻辑/控制与request响应的response内容的Router.md)
+
+| 文本 | 实体物品 | 实体物品 |
+|:-------:|:-------:|:-------:|
+|[showAnExperiment]|[学习用品]|[register]|
+|[showExperiments]|[工作用品]|[login]|
+|                   |[锻炼用品]|[logout]|
+
+[showAnExperiment]: /chapters/vue.js核心逻辑/Router/showAnExperiment.md
+[showExperiments]: /chapters/vue.js核心逻辑/Router/showExperiments.md
+
+[学习用品]: /chapters/egg.js核心逻辑/Router/学习用品.md
+[工作用品]: /chapters/egg.js核心逻辑/Router/工作用品.md
+[锻炼用品]: /chapters/egg.js核心逻辑/Router/锻炼用品.md
+
+[register]: /chapters/egg.js核心逻辑/Router/register.md
+[login]: /chapters/egg.js核心逻辑/Router/login.md
+[logout]: /chapters/egg.js核心逻辑/Router/logout.md
+
 - **C**troller
   - [解析用户输入/返回处理后结果的Controller类](/chapters/egg.js核心逻辑/解析用户输入-返回处理后结果的Controller类.md)
+
+| 文本 | 实体物品 | 实体物品 |
+|:-------:|:-------:|:-------:|
+|[showAnExperiment]|[学习用品]|[register]|
+|[showExperiments]|[工作用品]|[login]|
+|                   |[锻炼用品]|[logout]|
+
+[showAnExperiment]: /chapters/vue.js核心逻辑/Ctroller/showAnExperiment.md
+[showExperiments]: /chapters/vue.js核心逻辑/Ctroller/showExperiments.md
+
+[学习用品]: /chapters/egg.js核心逻辑/Ctroller/学习用品.md
+[工作用品]: /chapters/egg.js核心逻辑/Ctroller/工作用品.md
+[锻炼用品]: /chapters/egg.js核心逻辑/Ctroller/锻炼用品.md
+
+[register]: /chapters/egg.js核心逻辑/Ctroller/register.md
+[login]: /chapters/egg.js核心逻辑/Ctroller/login.md
+[logout]: /chapters/egg.js核心逻辑/Ctroller/logout.md
+
 - **M**odel
   - [**连接MongoDB**后CRUD-Database](/chapters/egg.js核心逻辑/连接MongoDB后CRUD-Database.md)
+
+| 文本 | 实体物品 | 实体物品 |
+|:-------:|:-------:|:-------:|
+|[showAnExperiment]|[学习用品]|[register]|
+|[showExperiments]|[工作用品]|[login]|
+|                   |[锻炼用品]|[logout]|
+
+[showAnExperiment]: /chapters/vue.js核心逻辑/Model/showAnExperiment.md
+[showExperiments]: /chapters/vue.js核心逻辑/Model/showExperiments.md
+
+[学习用品]: /chapters/egg.js核心逻辑/Model/学习用品.md
+[工作用品]: /chapters/egg.js核心逻辑/Model/工作用品.md
+[锻炼用品]: /chapters/egg.js核心逻辑/Model/锻炼用品.md
+
+[register]: /chapters/egg.js核心逻辑/Model/register.md
+[login]: /chapters/egg.js核心逻辑/Model/login.md
+[logout]: /chapters/egg.js核心逻辑/Model/logout.md
+
 - **V**iew
   - [渲染与request响应的response内容的View功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
+
+| 文本 | 实体物品 | 实体物品 |
+|:-------:|:-------:|:-------:|
+|[showAnExperiment]|[学习用品]|[register]|
+|[showExperiments]|[工作用品]|[login]|
+|                   |[锻炼用品]|[logout]|
+
+[showAnExperiment]: /chapters/vue.js核心逻辑/View/showAnExperiment.md
+[showExperiments]: /chapters/vue.js核心逻辑/View/showExperiments.md
+
+[学习用品]: /chapters/egg.js核心逻辑/View/学习用品.md
+[工作用品]: /chapters/egg.js核心逻辑/View/工作用品.md
+[锻炼用品]: /chapters/egg.js核心逻辑/View/锻炼用品.md
+
+[register]: /chapters/egg.js核心逻辑/View/register.md
+[login]: /chapters/egg.js核心逻辑/View/login.md
+[logout]: /chapters/egg.js核心逻辑/View/logout.md
+
 - [理解egg-init的加载原理和过程](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
 ## 代办事项的一步步教程
