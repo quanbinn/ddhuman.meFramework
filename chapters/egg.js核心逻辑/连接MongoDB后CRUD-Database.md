@@ -10,14 +10,40 @@
 
    （**node.js写了一系列函数调用MongoDB提供的javascript API**）
 
-## 打开实验文件
+### user.js
 
-### 调试环境：
-单击右方的[--- **from codesandbox.io**]()，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
-
-### index.js
 ```javascript
+// model/user.js
+'use strict';
 
+module.exports = app => {
+  const mongoose = app.mongoose;
+  const Schema = mongoose.Schema;
+
+  const UserSchema = new Schema({
+    username: { type: String },
+    password: { type: String },
+  });
+
+  return mongoose.model('User', UserSchema);
+}
+
+// controller/user.js
+'use strict';
+
+const Controller = require('egg').Controller;
+
+class UserController extends Controller {
+  async index() {
+    const { ctx } = this;
+    // let yuhangxia  = {username: "yuhangxia", password: "dsafsdaf"};
+    // await ctx.model.User.create(yuhangxia);
+    const users = await ctx.model.User.find({});
+    ctx.body = users.join("|");
+  }
+}
+
+module.exports = UserController;
 ```
 
 ## Reference
