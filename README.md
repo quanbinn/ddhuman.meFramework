@@ -8,6 +8,16 @@
 - [渲染与request响应的response内容的**View**功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 - [理解egg-init的加载原理和过程](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
+|          |         |         |         |
+| :------: | :-----: | ------- | ------- |
+| **this** | **ctx** | **req** | **res** |
+
+[this]: /chapters/egg.js核心逻辑/this.md
+[ctx]: /chapters/egg.js核心逻辑/ctx.md
+
+[req]: /chapters/egg.js核心逻辑/req.md
+[res]: /chapters/egg.js核心逻辑/res.md
+
 ## 代办事项的一步步教程
 
 1. [Creating an app](/chapters/一步步教程_代办事项应用/Creating_an_app.md)
