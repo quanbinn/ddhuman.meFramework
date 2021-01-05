@@ -8,9 +8,9 @@
 - [渲染与request响应的response内容的**View**功能](/chapters/egg.js核心逻辑/渲染与request响应的response内容的View功能.md)
 - [理解egg-init的加载原理和过程](/chapters/egg.js核心逻辑/理解egg-init的加载原理和过程.md)
 
-|          |         |         |         |
-| :------: | :-----: | ------- | ------- |
-| [**this**] | [**ctx**] | [**req**] | [**res**] |
+|     this    | this.ctx  | this.ctx.req | this.ctx.res |
+| :----------: | :------: | :----------: | :----------: |
+|  [this]   | [ctx] |  [req]   |  [res]   |
 
 [this]: /chapters/egg.js核心逻辑/this.md
 [ctx]: /chapters/egg.js核心逻辑/ctx.md
